@@ -1,36 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-*.log
-
-# Environment
 .env
-venv/
-.Python
-
-# VSCode
-.vscode/
-.settings/
-
-# OS Files
-.DS_Store
-
-# test files
-ChartQA-main/
-
-predictions/
-
-summary_by_model.json
-
-testing/
-
-testes/
-
-results/
-
-prompts/image_classification.txt
+venv-nps/
+__pycache__/
+*.pyc
+figures/
+pages/
+data/extracted_figures.json
+data/dataset_v2.csv

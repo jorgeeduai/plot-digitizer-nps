@@ -1,0 +1,51 @@
+paper_id,year,metal_system,stabilizer,ag_at_pct,au_at_pct,se_at_pct,te_at_pct,size_nm,pdi,zeta_mv,lspr_peak_nm,cell_line,ic50_ug_ml,viability_pct,ros_pct,genotoxicity_pct,mic_ug_ml,notes
+P01,2019,Ag50Au50,starch,50.0,50.0,,,9.7,,,,MDR E. coli,4.92,,,,,Size from TEM. IC50 ± SD in paper. Also tested vs MRSA.
+P01,2019,Ag50Au50,starch,50.0,50.0,,,9.7,,,,MRSA,6.95,,,,,Size from TEM. IC50 ± 1.70 (paper reports mean±SD).
+P01,2019,AuNPs,starch,0.0,100.0,,,28.5,,,,MDR E. coli,7.02,,,,,Size from TEM 28.5±2.0. IC50 ± 1.31.
+P01,2019,AuNPs,starch,0.0,100.0,,,28.5,,,,MRSA,12.29,,,,,Size from TEM. IC50 ± 3.77.
+P02,2025,Au,starch,0.0,100.0,,,24.3,,-43.7,,H9c2,,,,,,Ag:Au=0:100. No significant cytotoxicity at tested concentrations.
+P02,2025,Au75Ag25,starch,25.0,75.0,,,9.4,,-32.37,,H9c2,,,,,,Au:Ag=75:25 (3:1 ratio). No significant cytotoxicity at tested concentrations.
+P02,2025,Au50Ag50,starch,50.0,50.0,,,8.7,,-28.43,,H9c2,,,,,,Au:Ag=50:50. No significant cytotoxicity at tested concentrations.
+P02,2025,Au25Ag75,starch,75.0,25.0,,,10.9,,-24.1,,H9c2 (hypertrophic),,,,,,Au:Ag=25:75. IC50 in healthy H9c2 >10 ppm. Hypertrophic ≳10 ppm. Hypertrophic H9c2 more susceptible. IC50=>10 μg/mL (ppm)
+P02,2025,Ag,starch,100.0,0.0,,,6.5,,-22.5,,H9c2 (healthy),7.06,,,,,"Pure AgNPs. IC50 7.06 ppm (healthy H9c2), 5.73 ppm (hypertrophic). IC50=7.06 μg/mL (ppm)"
+P02,2025,Ag,starch,100.0,0.0,,,6.5,,-22.5,,H9c2 (hypertrophic),5.73,,,,,"Pure AgNPs. IC50 7.06 ppm (healthy H9c2), 5.73 ppm (hypertrophic). Hypertrophic H9c2 more susceptible. IC50=5.73 μg/mL (ppm)"
+P03,2024,AgNPs,starch,100.0,0.0,,,,,,,MCF-7,,,,,,Tested at 180 μM concentration. Not reported in text. NAC recovery ~20-30%.
+P03,2024,Ag75Au25,starch,75.0,25.0,,,,,,,MCF-7,,,,24.0,,Tested at 180 μM concentration. Highest DNA damage: 24% tail DNA. NAC recovery ~20-30%. >Ag50 in DNA fragmentation.
+P03,2024,Ag50Au50,starch,50.0,50.0,,,,,,,MCF-7,,,,,,Tested at 180 μM concentration. Greater tail DNA% than monometallic. NAC recovery ~20-30%.
+P03,2024,Ag25Au75,starch,25.0,75.0,,,,,,,MCF-7,,,,,,Tested at 180 μM concentration. Cytotoxic at 180 μM. NAC did not significantly reduce ROS.
+P03,2024,AuNPs,starch,0.0,100.0,,,,,,,MCF-7,,,,,,Tested at 180 μM concentration. Cytotoxic at 180 μM. NAC did not significantly reduce ROS.
+P03,2024,Ag75Au25,starch,75.0,25.0,,,,,,,PBMC,,,,,,Negligible cytotoxicity in healthy PBMC at 180 μM (cancer-selective).
+P04,2022,JP-SeNPs,jalapeño pepper extract,,,100.0,,79.2,,-32.0,,HDF,,,,,,No obvious morphology change in HDF at 75 μg/mL. Zeta as-synthesized.
+P04,2022,JP-SeNPs,jalapeño pepper extract,,,100.0,,79.2,,-32.0,,MDR E. coli,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,JP-SeNPs,jalapeño pepper extract,,,100.0,,79.2,,-32.0,,MRSA,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,HB-SeNPs,habanero pepper extract,,,100.0,,90.6,,-45.0,,HDF,,,,,,No obvious morphology change in HDF at 75 μg/mL. Zeta as-synthesized.
+P04,2022,HB-SeNPs,habanero pepper extract,,,100.0,,90.6,,-45.0,,MDR E. coli,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,HB-SeNPs,habanero pepper extract,,,100.0,,90.6,,-45.0,,MRSA,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,JP-TeNPs,jalapeño pepper extract,,,,100.0,82.1,,-31.0,,HDF,,,,,,No obvious morphology change in HDF at 75 μg/mL. Zeta as-synthesized.
+P04,2022,JP-TeNPs,jalapeño pepper extract,,,,100.0,82.1,,-31.0,,MDR E. coli,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,JP-TeNPs,jalapeño pepper extract,,,,100.0,82.1,,-31.0,,MRSA,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,HB-TeNPs,habanero pepper extract,,,,100.0,74.3,,-43.0,,HDF,,,,,,No obvious morphology change in HDF at 75 μg/mL. Zeta as-synthesized.
+P04,2022,HB-TeNPs,habanero pepper extract,,,,100.0,74.3,,-43.0,,MDR E. coli,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P04,2022,HB-TeNPs,habanero pepper extract,,,,100.0,74.3,,-43.0,,MRSA,,,,,,SEM showed NP attachment to bacteria causing membrane disruption. MIC in Table 2/3 (image-based).
+P05,2022,Ag20Au80,starch,20.0,80.0,,,,,,,Melanoma,5.0,,,,,IC50 approximate from dose-response graphs. Significant cytotoxicity at ≥5 μg/mL.
+P05,2022,Ag20Au80,starch,20.0,80.0,,,,,,,HDF,,,,,,Minimal cytotoxicity up to 10-20 μg/mL in healthy HDF cells.
+P05,2022,Ag40Au60,starch,40.0,60.0,,,,,,,Melanoma,15.0,,,,,IC50 approximate from dose-response graphs. Significant cytotoxicity at ≥5 μg/mL.
+P05,2022,Ag40Au60,starch,40.0,60.0,,,,,,,HDF,,,,,,Minimal cytotoxicity up to 10-20 μg/mL in healthy HDF cells.
+P05,2022,Ag60Au40,starch,60.0,40.0,,,,,,,Melanoma,15.0,,,,,IC50 approximate from dose-response graphs. Significant cytotoxicity at ≥5 μg/mL.
+P05,2022,Ag60Au40,starch,60.0,40.0,,,,,,,HDF,,,,,,Minimal cytotoxicity up to 10-20 μg/mL in healthy HDF cells.
+P05,2022,Ag80Au20,starch,80.0,20.0,,,,,,,Melanoma,15.0,,,,,IC50 approximate from dose-response graphs. Significant cytotoxicity at ≥5 μg/mL.
+P05,2022,Ag80Au20,starch,80.0,20.0,,,,,,,HDF,,,,,,Minimal cytotoxicity up to 10-20 μg/mL in healthy HDF cells.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,HDF,,,,,,Low cytotoxicity vs HDF at 25-50 μg/mL. Bacterial-mediated synthesis.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,Melanoma,,,,,,IC50 from Table 4 (3-day treatment). ROS-dependent mechanism.
+P07,2023,SA-SeNPs,S. aureus isolate,,,100.0,,72.0,,,,HDF,,,,,,Low cytotoxicity vs HDF at 25-50 μg/mL. Bacterial-mediated synthesis.
+P07,2023,SA-SeNPs,S. aureus isolate,,,100.0,,72.0,,,,Melanoma,11.0,,,,,IC50 from Table 4 (3-day treatment). ROS-dependent mechanism.
+P07,2023,MDR-EC-SeNPs,MDR E. coli isolate,,,100.0,,90.0,,,,HDF,,,,,,Low cytotoxicity vs HDF at 25-50 μg/mL. Bacterial-mediated synthesis.
+P07,2023,MDR-EC-SeNPs,MDR E. coli isolate,,,100.0,,90.0,,,,Melanoma,9.0,,,,,IC50 from Table 4 (3-day treatment). ROS-dependent mechanism.
+P07,2023,MRSA-SeNPs,MRSA isolate,,,100.0,,62.0,,,,HDF,,,,,,Low cytotoxicity vs HDF at 25-50 μg/mL. Bacterial-mediated synthesis.
+P07,2023,MRSA-SeNPs,MRSA isolate,,,100.0,,62.0,,,,Melanoma,15.0,,,,,IC50 from Table 4 (3-day treatment). ROS-dependent mechanism.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,E. coli,,,,,5.0,MIC from Table 2. EC-SeNPs most effective vs E. coli. No resistance development.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,MDR E. coli,,,,,10.0,MIC from Table 2. EC-SeNPs most effective vs E. coli. No resistance development.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,P. aeruginosa,,,,,25.0,MIC from Table 2. EC-SeNPs most effective vs E. coli. No resistance development.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,S. aureus,,,,,50.0,MIC from Table 2. EC-SeNPs most effective vs E. coli. No resistance development.
+P07,2023,EC-SeNPs,E. coli isolate,,,100.0,,100.0,,,,MRSA,,,,,50.0,MIC from Table 2. EC-SeNPs most effective vs E. coli. No resistance development.
+P07,2023,SA-SeNPs,S. aureus isolate,,,100.0,,72.0,,,,S. aureus,,,,,,"MIC from Table 3 (image-based, values not extractable). SA-SeNPs most effective vs SA/MRSA."
