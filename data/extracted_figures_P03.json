@@ -1,0 +1,764 @@
+[
+  {
+    "paper_id": "P03",
+    "filename": "P03-003.png",
+    "path": "figures/P03/P03-003.png",
+    "width_px": 971,
+    "height_px": 694,
+    "aspect_ratio": 1.4,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "multiple panels",
+        "unit": "various"
+      },
+      "y_axis": {
+        "label": "multiple panels",
+        "unit": "various"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 407,
+          "label": "Ag NPs - LSPR peak from UV-Vis (Panel A)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 430,
+          "label": "Ag75Au25 NPs - LSPR peak from UV-Vis (Panel A)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 473,
+          "label": "Ag50Au50 NPs - LSPR peak from UV-Vis (Panel A)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 491,
+          "label": "Ag25Au75 NPs - LSPR peak from UV-Vis (Panel A)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 524,
+          "label": "Au NPs - LSPR peak from UV-Vis (Panel A)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": -22,
+          "label": "Ag NPs - Zeta potential (Panel D)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": -31,
+          "label": "Ag75Au25 NPs - Zeta potential (Panel D)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": -20,
+          "label": "Ag50Au50 NPs - Zeta potential (Panel D)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": -32,
+          "label": "Ag25Au75 NPs - Zeta potential (Panel D)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": -15,
+          "label": "Au NPs - Zeta potential (Panel D)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 407,
+          "label": "Ag100 - Linear fit LSPR vs Au at% (Panel B)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 25,
+          "y_value": 430,
+          "label": "Ag75Au25 - Linear fit LSPR vs Au at% (Panel B)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 50,
+          "y_value": 473,
+          "label": "Ag50Au50 - Linear fit LSPR vs Au at% (Panel B)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 75,
+          "y_value": 491,
+          "label": "Ag25Au75 - Linear fit LSPR vs Au at% (Panel B)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 100,
+          "y_value": 524,
+          "label": "Au100 - Linear fit LSPR vs Au at% (Panel B)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag",
+        "Ag75Au25",
+        "Ag50Au50",
+        "Ag25Au75",
+        "Au",
+        "Ag100-xAux"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure contains 4 panels: (A) UV-Vis absorption spectra showing single LSPR peaks for all compositions confirming alloy formation; (B) linear relationship between LSPR peak wavelength and Au atomic composition (λ_max = 1.18x + 406 nm, R²=0.9878); (C) XRD patterns showing FCC crystal structure with peaks at 111, 200, 220, 311, 222 planes with peak shifts between Ag and Au positions; (D) Zeta potential measurements showing all compositions have negative surface charge. The single LSPR peak per composition confirms alloy nanoparticle formation rather than core-shell or phase-separated structures.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2928
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-004.png",
+    "path": "figures/P03/P03-004.png",
+    "width_px": 705,
+    "height_px": 1054,
+    "aspect_ratio": 0.67,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [
+        "Ag",
+        "Ag75",
+        "Ag50",
+        "Ag25",
+        "Au"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure shows HAADF-STEM (or dark-field TEM) images of Ag-Au bimetallic nanoparticles at different compositions (pure Ag, Ag75Au25, Ag50Au50, Ag25Au75, and pure Au). All scale bars are 10 nm. Particle sizes appear to be in the ~10-30 nm range but no quantitative data chart is present.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure consists of TEM/STEM microscopy images of nanoparticles at different Ag:Au compositions, not a quantitative data chart"
+    },
+    "tokens_used": 1921
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-006.png",
+    "path": "figures/P03/P03-006.png",
+    "width_px": 966,
+    "height_px": 1063,
+    "aspect_ratio": 0.91,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [
+        "Ag75Au25",
+        "Ag50Au50",
+        "Ag25Au75"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure shows STEM-HAADF images with corresponding EDS elemental maps (Ag in cyan, Au in yellow) for three bimetallic AgAu nanoparticle compositions: Ag75, Ag50, and Ag25. Scale bars are 10 nm. The images confirm homogeneous alloy structures with both Ag and Au distributed throughout the nanoparticles. No quantitative chart data is present.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure consists of STEM-HAADF microscopy images and EDS elemental mapping images of bimetallic Ag-Au nanoparticles, not a chart with quantitative data."
+    },
+    "tokens_used": 2274
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-007.png",
+    "path": "figures/P03/P03-007.png",
+    "width_px": 971,
+    "height_px": 584,
+    "aspect_ratio": 1.66,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Binding energy",
+        "unit": "eV"
+      },
+      "y_axis": {
+        "label": "Intensity",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": 368.0,
+          "y_value": null,
+          "label": "Ag - Ag 3d5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.0,
+          "y_value": null,
+          "label": "Ag - Ag 3d3/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.0,
+          "y_value": null,
+          "label": "Ag75 - Ag 3d5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.0,
+          "y_value": null,
+          "label": "Ag75 - Ag 3d3/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.0,
+          "y_value": null,
+          "label": "Ag50 - Ag 3d5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.0,
+          "y_value": null,
+          "label": "Ag50 - Ag 3d3/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.0,
+          "y_value": null,
+          "label": "Ag25 - Ag 3d5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.0,
+          "y_value": null,
+          "label": "Ag25 - Ag 3d3/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 84.0,
+          "y_value": null,
+          "label": "Au - Au 4f7/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 87.7,
+          "y_value": null,
+          "label": "Au - Au 4f5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 84.0,
+          "y_value": null,
+          "label": "Ag25 - Au 4f7/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 87.7,
+          "y_value": null,
+          "label": "Ag25 - Au 4f5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 84.0,
+          "y_value": null,
+          "label": "Ag50 - Au 4f7/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 87.7,
+          "y_value": null,
+          "label": "Ag50 - Au 4f5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 84.0,
+          "y_value": null,
+          "label": "Ag75 - Au 4f7/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 87.7,
+          "y_value": null,
+          "label": "Ag75 - Au 4f5/2 peak",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag",
+        "Au",
+        "Ag75",
+        "Ag50",
+        "Ag25"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "XPS spectra showing Ag 3d and Au 4f core levels for Ag-Au bimetallic nanoparticles at various compositions. Panel A shows Ag 3d region with metallic Ag and Ag oxide components. Panel B shows Au 4f region with metallic Au components. This is a characterization figure (XPS), not containing any of the target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR).",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure shows XPS (X-ray photoelectron spectroscopy) spectra for compositional/chemical state characterization. No target bioactivity variables (PDI, IC50, cell viability, ROS, MIC, or LSPR) are present in this figure."
+    },
+    "tokens_used": 2781
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-009.png",
+    "path": "figures/P03/P03-009.png",
+    "width_px": 971,
+    "height_px": 652,
+    "aspect_ratio": 1.49,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"NPs concentration\", \"unit\": \"µM\"},\n  \"y_axis\": {\"label\": \"Cell viability\", \"unit\": \"%\"},\n  \"data_points\": [\n    {\"x_value\": 80, \"y_value\": 105, \"label\": \"Panel A - Control - 80 µM\", \"variable_extracted\": \"viability_pct\", \"confidence\": \"medium\"},\n    {\"x_value\": 80, \"y_value\": 100, \"label\": \"Panel A - Ag - 80 µM\", \"variable_extracted\": \"viability_pct\", \"confidence\": \"medium\"},\n    {\"x_value\": 80, \"y_value\": 75, \"label\": \"Panel A - Ag75 - 80 µM\", \"va",
+      "extractable": false
+    },
+    "tokens_used": 3507
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-011.png",
+    "path": "figures/P03/P03-011.png",
+    "width_px": 1386,
+    "height_px": 1151,
+    "aspect_ratio": 1.2,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Nanoparticle treatment",
+        "unit": "categorical"
+      },
+      "y_axis": {
+        "label": "Fluorescent intensity",
+        "unit": "A.U."
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 100,
+          "label": "Control",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 350,
+          "label": "Ag (without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 235,
+          "label": "Ag+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 305,
+          "label": "Ag75 (without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 170,
+          "label": "Ag75+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 290,
+          "label": "Ag50 (without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 215,
+          "label": "Ag50+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 275,
+          "label": "Ag25 (without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 245,
+          "label": "Ag25+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 275,
+          "label": "Au (without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 230,
+          "label": "Au+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 580,
+          "label": "H2O2 (positive control, without NAC)",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 490,
+          "label": "H2O2+NAC",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs",
+        "Ag75Au25",
+        "Ag50Au50",
+        "Ag25Au75",
+        "AuNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure shows ROS generation measured by fluorescent intensity (A.U.) with and without NAC (N-acetylcysteine, an antioxidant/ROS scavenger). H2O2 serves as positive control. Values are reported as raw fluorescent intensity in A.U. but represent ROS levels relative to control (~100 A.U.). Statistical significance indicated: *** between Ag and Ag+NAC, **** between Ag75 and Ag75+NAC, * between Ag50 and Ag50+NAC, **** between Control and Au, ** between H2O2 and H2O2+NAC. Panel B shows corresponding fluorescence microscopy images.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3311
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-012.png",
+    "path": "figures/P03/P03-012.png",
+    "width_px": 971,
+    "height_px": 527,
+    "aspect_ratio": 1.84,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Treatment group",
+        "unit": "categorical"
+      },
+      "y_axis": {
+        "label": "Cell viability",
+        "unit": "%"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 100,
+          "label": "Control",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 47,
+          "label": "Ag",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 75,
+          "label": "Ag + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 52,
+          "label": "Ag75",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 62,
+          "label": "Ag75 + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 53,
+          "label": "Ag50",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 73,
+          "label": "Ag50 + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 56,
+          "label": "Ag25",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 57,
+          "label": "Ag25 + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 57,
+          "label": "Au",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 82,
+          "label": "Au + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 48,
+          "label": "H2O2",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 73,
+          "label": "H2O2 + NAC",
+          "variable_extracted": "viability_pct",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs",
+        "Ag75 (Ag75Au25)",
+        "Ag50 (Ag50Au50)",
+        "Ag25 (Ag25Au75)",
+        "AuNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "NAC (N-acetylcysteine) is an antioxidant/ROS scavenger used to assess whether cytotoxicity is ROS-mediated. Statistical significance indicated: **** (p<0.0001) for Ag vs Ag+NAC, Ag50 vs Ag50+NAC, Au vs Au+NAC, H2O2 vs H2O2+NAC; * (p<0.05) for Ag75 vs Ag75+NAC. Ag25 vs Ag25+NAC showed no significant difference. H2O2 used as positive control for ROS-mediated toxicity.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2412
+  },
+  {
+    "paper_id": "P03",
+    "filename": "P03-014.png",
+    "path": "figures/P03/P03-014.png",
+    "width_px": 1526,
+    "height_px": 995,
+    "aspect_ratio": 1.53,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Nanoparticle treatment",
+        "unit": "categorical"
+      },
+      "y_axis": {
+        "label": "Olive Tail Moment / Tail DNA %",
+        "unit": "arbitrary / %"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 1,
+          "label": "Control - (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 8,
+          "label": "Ag (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 25,
+          "label": "Ag75 (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 20,
+          "label": "Ag50 (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 20,
+          "label": "Ag25 (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 5,
+          "label": "Au (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 50,
+          "label": "Etoposide 20 µM (Olive Tail Moment, panel B)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 15,
+          "label": "Control - (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 38,
+          "label": "Ag (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 57,
+          "label": "Ag75 (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 59,
+          "label": "Ag50 (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 48,
+          "label": "Ag25 (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 35,
+          "label": "Au (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": null,
+          "y_value": 86,
+          "label": "Etoposide 20 µM (Tail DNA %, panel C)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs",
+        "AuNPs",
+        "Ag75Au25",
+        "Ag50Au50",
+        "Ag25Au75"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Panel A shows comet assay fluorescence microscopy images. Panels B and C show genotoxicity data as Olive Tail Moment and Tail DNA %, respectively. Ag75, Ag50, Ag25 likely refer to bimetallic Ag-Au nanoparticles with varying Ag:Au ratios. Asterisks (*) in panel B indicate statistical significance for Ag75 and Ag25 vs Control. Etoposide 20 µM serves as positive control.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3405
+  }
+]

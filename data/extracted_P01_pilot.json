@@ -1,0 +1,222 @@
+{
+  "paper_id": "P01",
+  "paper_title": "Starch-stabilized bimetallic Ag-Au nanoparticles: synthesis, characterization, antibacterial and cytotoxic properties",
+  "paper_year": 2019,
+  "extraction_method": "claude_vision_full_pages",
+  "extraction_model": "claude-opus-4-6",
+  "extraction_date": "2026-03-08",
+  "pages_analyzed": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "total_figures_analyzed": 12,
+  "figures_with_extractable_data": 10,
+  "extraction_rate": 0.83,
+  "figures": [
+    {
+      "figure_id": "Fig2",
+      "page": 6,
+      "chart_type": "spectrum",
+      "description": "UV-Visible Absorption Spectra for AgNPs, AuNPs, Ag/AuNPs, and physical mixture",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AgNPs", "variable": "lspr_nm", "value": 402, "unit": "nm", "confidence": "medium"},
+        {"condition": "Ag/AuNPs", "variable": "lspr_nm", "value": 463, "unit": "nm", "confidence": "medium"},
+        {"condition": "AuNPs", "variable": "lspr_nm", "value": 521, "unit": "nm", "confidence": "medium"}
+      ]
+    },
+    {
+      "figure_id": "Table2",
+      "page": 6,
+      "chart_type": "table",
+      "description": "Particle Size Summary from DLS, TEM, UV-Vis, XRD",
+      "extractable": true,
+      "data_points": [
+        {"condition": "Ag/AuNPs", "variable": "size_nm_dls", "value": 9.4, "error": 2.8, "unit": "nm", "confidence": "high"},
+        {"condition": "Ag/AuNPs", "variable": "size_nm_tem", "value": 9.7, "error": 3.2, "unit": "nm", "confidence": "high"},
+        {"condition": "Ag/AuNPs", "variable": "size_nm_xrd", "value": 10.3, "error": 4.5, "unit": "nm", "confidence": "high"},
+        {"condition": "AuNPs", "variable": "size_nm_dls", "value": 29.3, "error": 8.6, "unit": "nm", "confidence": "high"},
+        {"condition": "AuNPs", "variable": "size_nm_tem", "value": 28.5, "error": 2.0, "unit": "nm", "confidence": "high"},
+        {"condition": "AuNPs", "variable": "size_nm_xrd", "value": 22.5, "error": 9.9, "unit": "nm", "confidence": "high"}
+      ]
+    },
+    {
+      "figure_id": "Fig3A",
+      "page": 7,
+      "chart_type": "spectrum",
+      "description": "UV-Vis reproducibility spectra for Ag/AuNPs (6 replicates)",
+      "extractable": true,
+      "data_points": [
+        {"condition": "Ag/AuNPs_reproducibility", "variable": "lspr_nm", "value": 462, "error": 1, "unit": "nm", "confidence": "high"}
+      ]
+    },
+    {
+      "figure_id": "Fig3B",
+      "page": 7,
+      "chart_type": "spectrum",
+      "description": "UV-Vis reproducibility spectra for AuNPs (6 replicates)",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_reproducibility", "variable": "lspr_nm", "value": 524, "error": 2, "unit": "nm", "confidence": "high"}
+      ]
+    },
+    {
+      "figure_id": "Fig5A",
+      "page": 8,
+      "chart_type": "size_distribution",
+      "description": "Hydrodynamic diameter distribution (DLS) for Ag/AuNPs and AuNPs",
+      "extractable": true,
+      "data_points": [
+        {"condition": "Ag/AuNPs", "variable": "size_nm_dls", "value": 9.4, "error": 2.8, "unit": "nm", "confidence": "high"},
+        {"condition": "AuNPs", "variable": "size_nm_dls", "value": 29.3, "error": 8.6, "unit": "nm", "confidence": "high"}
+      ]
+    },
+    {
+      "figure_id": "Fig5B",
+      "page": 8,
+      "chart_type": "bar",
+      "description": "Zeta potential values for Ag/AuNPs and AuNPs",
+      "extractable": true,
+      "data_points": [
+        {"condition": "Ag/AuNPs", "variable": "zeta_mv", "value": -20, "unit": "mV", "confidence": "medium", "note": "at pH 6.8"},
+        {"condition": "AuNPs", "variable": "zeta_mv", "value": -47, "unit": "mV", "confidence": "medium", "note": "at pH 7.8"}
+      ]
+    },
+    {
+      "figure_id": "Fig7",
+      "page": 10,
+      "chart_type": "growth_curve",
+      "description": "Bacterial growth curves for MDR E. coli and MRSA treated with AuNPs and Ag/AuNPs at 0-20 µg/mL",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_20ugmL_Ecoli", "variable": "growth_inhibition_pct", "value": 30, "unit": "%", "confidence": "medium", "note": "max CFU reduction vs control at 20 µg/mL"},
+        {"condition": "AuNPs_20ugmL_MRSA", "variable": "growth_inhibition_pct", "value": 27, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_15ugmL_Ecoli", "variable": "growth_inhibition_pct", "value": 85, "unit": "%", "confidence": "medium", "note": "max CFU reduction at 15 µg/mL"},
+        {"condition": "AgAuNPs_20ugmL_MRSA", "variable": "growth_inhibition_pct", "value": 53, "unit": "%", "confidence": "medium"}
+      ]
+    },
+    {
+      "figure_id": "Fig9",
+      "page": 12,
+      "chart_type": "bar",
+      "description": "Colony-counting assay (CFU/mL) after 8h treatment at different NP concentrations",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_Ecoli_control", "variable": "cfu_ml", "value": 6.5e8, "unit": "CFU/mL", "confidence": "medium"},
+        {"condition": "AuNPs_Ecoli_15ugmL", "variable": "cfu_ml", "value": 3.5e8, "unit": "CFU/mL", "confidence": "medium", "significance": "p<0.05"},
+        {"condition": "AuNPs_Ecoli_20ugmL", "variable": "cfu_ml", "value": 3.5e8, "unit": "CFU/mL", "confidence": "medium", "significance": "p<0.1"},
+        {"condition": "AgAuNPs_Ecoli_control", "variable": "cfu_ml", "value": 6.5e8, "unit": "CFU/mL", "confidence": "medium"},
+        {"condition": "AgAuNPs_Ecoli_15ugmL", "variable": "cfu_ml", "value": 1.0e8, "unit": "CFU/mL", "confidence": "medium", "significance": "p<0.0005"},
+        {"condition": "AgAuNPs_MRSA_control", "variable": "cfu_ml", "value": 1.5e7, "unit": "CFU/mL", "confidence": "medium"},
+        {"condition": "AgAuNPs_MRSA_20ugmL", "variable": "cfu_ml", "value": 7.0e6, "unit": "CFU/mL", "confidence": "medium", "significance": "p<0.0005"}
+      ]
+    },
+    {
+      "figure_id": "Table4",
+      "page": 13,
+      "chart_type": "table",
+      "description": "IC50 values for antibacterial activity",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_vs_MDR_Ecoli", "variable": "ic50_ug_ml", "value": 7.02, "error": 1.31, "unit": "µg/mL", "confidence": "high"},
+        {"condition": "AuNPs_vs_MRSA", "variable": "ic50_ug_ml", "value": 12.29, "error": 3.77, "unit": "µg/mL", "confidence": "high"},
+        {"condition": "AgAuNPs_vs_MDR_Ecoli", "variable": "ic50_ug_ml", "value": 4.92, "error": 0.81, "unit": "µg/mL", "confidence": "high"},
+        {"condition": "AgAuNPs_vs_MRSA", "variable": "ic50_ug_ml", "value": 6.95, "error": 1.70, "unit": "µg/mL", "confidence": "high"}
+      ]
+    },
+    {
+      "figure_id": "Fig11",
+      "page": 14,
+      "chart_type": "bar",
+      "description": "HDF cell viability (%) after AuNPs and Ag/AuNPs treatment at 24h and 72h",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_HDF_1ugmL_24h", "variable": "viability_pct", "value": 95, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_5ugmL_24h", "variable": "viability_pct", "value": 95, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_10ugmL_24h", "variable": "viability_pct", "value": 90, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_15ugmL_24h", "variable": "viability_pct", "value": 90, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_20ugmL_24h", "variable": "viability_pct", "value": 85, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_1ugmL_72h", "variable": "viability_pct", "value": 100, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_5ugmL_72h", "variable": "viability_pct", "value": 105, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_10ugmL_72h", "variable": "viability_pct", "value": 100, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_15ugmL_72h", "variable": "viability_pct", "value": 105, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_HDF_20ugmL_72h", "variable": "viability_pct", "value": 100, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_1ugmL_24h", "variable": "viability_pct", "value": 90, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_5ugmL_24h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_10ugmL_24h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_15ugmL_24h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_20ugmL_24h", "variable": "viability_pct", "value": 75, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_1ugmL_72h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_HDF_5ugmL_72h", "variable": "viability_pct", "value": 75, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_HDF_10ugmL_72h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_HDF_15ugmL_72h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_HDF_20ugmL_72h", "variable": "viability_pct", "value": 70, "unit": "%", "confidence": "medium", "significance": "p<0.01"}
+      ]
+    },
+    {
+      "figure_id": "Fig12",
+      "page": 15,
+      "chart_type": "bar",
+      "description": "Melanoma cell viability (%) after AuNPs and Ag/AuNPs treatment at 24h and 72h",
+      "extractable": true,
+      "data_points": [
+        {"condition": "AuNPs_MEL_1ugmL_24h", "variable": "viability_pct", "value": 95, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_5ugmL_24h", "variable": "viability_pct", "value": 90, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_10ugmL_24h", "variable": "viability_pct", "value": 85, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_15ugmL_24h", "variable": "viability_pct", "value": 85, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_20ugmL_24h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_1ugmL_72h", "variable": "viability_pct", "value": 100, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_5ugmL_72h", "variable": "viability_pct", "value": 100, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_10ugmL_72h", "variable": "viability_pct", "value": 95, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_15ugmL_72h", "variable": "viability_pct", "value": 95, "unit": "%", "confidence": "medium"},
+        {"condition": "AuNPs_MEL_20ugmL_72h", "variable": "viability_pct", "value": 90, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_MEL_1ugmL_24h", "variable": "viability_pct", "value": 80, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_MEL_5ugmL_24h", "variable": "viability_pct", "value": 75, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_MEL_10ugmL_24h", "variable": "viability_pct", "value": 65, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_MEL_15ugmL_24h", "variable": "viability_pct", "value": 60, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_MEL_20ugmL_24h", "variable": "viability_pct", "value": 55, "unit": "%", "confidence": "medium"},
+        {"condition": "AgAuNPs_MEL_1ugmL_72h", "variable": "viability_pct", "value": 75, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_MEL_5ugmL_72h", "variable": "viability_pct", "value": 70, "unit": "%", "confidence": "medium", "significance": "p<0.01"},
+        {"condition": "AgAuNPs_MEL_10ugmL_72h", "variable": "viability_pct", "value": 55, "unit": "%", "confidence": "medium", "significance": "p<0.005"},
+        {"condition": "AgAuNPs_MEL_15ugmL_72h", "variable": "viability_pct", "value": 55, "unit": "%", "confidence": "medium", "significance": "p<0.005"},
+        {"condition": "AgAuNPs_MEL_20ugmL_72h", "variable": "viability_pct", "value": 50, "unit": "%", "confidence": "medium", "significance": "p<0.005"}
+      ]
+    }
+  ],
+  "summary": {
+    "np_systems": ["AuNPs", "Ag/AuNPs (Ag~45at%:Au~55at%)"],
+    "stabilizer": "starch",
+    "cell_lines_tested": ["HDF (Human Dermal Fibroblast)", "MEL (Human Melanoma)"],
+    "bacteria_tested": ["MDR E. coli", "MRSA"],
+    "concentrations_tested_ugmL": [1, 5, 10, 15, 20],
+    "key_values": {
+      "ic50_antibacterial": {
+        "AuNPs_MDR_Ecoli": {"value": 7.02, "error": 1.31, "unit": "µg/mL"},
+        "AuNPs_MRSA": {"value": 12.29, "error": 3.77, "unit": "µg/mL"},
+        "AgAuNPs_MDR_Ecoli": {"value": 4.92, "error": 0.81, "unit": "µg/mL"},
+        "AgAuNPs_MRSA": {"value": 6.95, "error": 1.70, "unit": "µg/mL"}
+      },
+      "ic50_cytotoxicity_estimated": {
+        "AgAuNPs_MEL_72h": {"value_range": "10-20", "unit": "µg/mL", "note": "estimated from viability curve ~50% at 10-20 µg/mL"}
+      },
+      "lspr_nm": {
+        "AgNPs": 402,
+        "AgAuNPs": 462,
+        "AuNPs": 524
+      },
+      "size_nm": {
+        "AgAuNPs_DLS": {"value": 9.4, "error": 2.8},
+        "AgAuNPs_TEM": {"value": 9.7, "error": 3.2},
+        "AuNPs_DLS": {"value": 29.3, "error": 8.6},
+        "AuNPs_TEM": {"value": 28.5, "error": 2.0}
+      },
+      "zeta_mv": {
+        "AgAuNPs": -20,
+        "AuNPs": -47
+      },
+      "composition_at_pct": {
+        "AgAuNPs_Ag": {"value": 44.97, "error": 3.87},
+        "AgAuNPs_Au": {"value": 55.03, "error": 3.87}
+      }
+    },
+    "data_not_found_in_paper": ["PDI", "ROS quantitative", "MIC standard"],
+    "notes": "Paper uses growth kinetics (Gompertz model) not standard MIC. IC50 is for antibacterial (colony counting) not cytotoxicity. Cytotoxicity IC50 for melanoma can be estimated ~10-20 µg/mL from Figure 12B."
+  }
+}

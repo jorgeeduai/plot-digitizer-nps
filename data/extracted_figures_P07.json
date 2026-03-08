@@ -1,0 +1,379 @@
+[
+  {
+    "paper_id": "P07",
+    "filename": "P07-004.png",
+    "path": "figures/P07/P07-004.png",
+    "width_px": 961,
+    "height_px": 705,
+    "aspect_ratio": 1.36,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure contains four SEM (scanning electron microscopy) images labeled A-D showing bacterial cells (panels A and B appear to show rod-shaped bacteria, likely Gram-negative, while panels C and D show spherical/coccal bacteria) with nanoparticles attached to or surrounding the cell surfaces. Scale bars are 1 µm in all panels. No quantitative data can be extracted from these micrographs.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is a set of SEM microscopy images showing bacterial cells interacting with nanoparticles, not a chart with quantitative data"
+    },
+    "tokens_used": 1818
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-006.png",
+    "path": "figures/P07/P07-006.png",
+    "width_px": 951,
+    "height_px": 844,
+    "aspect_ratio": 1.13,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure contains four TEM (transmission electron microscopy) images (panels A-D) showing nanoparticles associated with bacterial cells. Panels A and B show bacteria at 500 nm scale with nanoparticles attached to or near the cell surface. Panels C and D show individual nanoparticles at 100 nm scale surrounded by what appears to be a corona or coating material. No quantitative chart data is present.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure consists of TEM microscopy images showing nanoparticle-bacteria interactions, not a chart with quantitative data points."
+    },
+    "tokens_used": 1961
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-007.png",
+    "path": "figures/P07/P07-007.png",
+    "width_px": 971,
+    "height_px": 710,
+    "aspect_ratio": 1.37,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Wavenumber",
+        "unit": "cm⁻¹"
+      },
+      "y_axis": {
+        "label": "Transmittance",
+        "unit": "arbitrary"
+      },
+      "data_points": [
+        {
+          "x_value": 3270,
+          "y_value": null,
+          "label": "O-H/N-H stretching band - all SeNPs samples",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 2960,
+          "y_value": null,
+          "label": "C-H stretching band (asymmetric) - all SeNPs samples",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 2920,
+          "y_value": null,
+          "label": "C-H stretching band (symmetric) - all SeNPs samples",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 1622,
+          "y_value": null,
+          "label": "Amide/C=O stretching region start - all SeNPs samples",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 1070,
+          "y_value": null,
+          "label": "C-O stretching region end - all SeNPs samples",
+          "variable_extracted": "other",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "EC-SeNPs",
+        "MDR-EC-SeNPs",
+        "SA-SeNPs",
+        "MRSA-SeNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "E. coli",
+        "MDR E. coli",
+        "S. aureus",
+        "MRSA"
+      ],
+      "notes": "This is an FTIR spectrum showing functional groups on the surface of biogenic selenium nanoparticles synthesized by different bacteria. No target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure. The key absorption bands are at 3270, 2960-2920, and 1622-1070 cm⁻¹ indicating organic capping agents on SeNPs.",
+      "extractable": false,
+      "reason_if_not_extractable": "FTIR spectra do not contain any of the target quantitative variables (PDI, IC50, cell viability, ROS, MIC, LSPR). The figure shows qualitative functional group identification on nanoparticle surfaces."
+    },
+    "tokens_used": 2258
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-009.png",
+    "path": "figures/P07/P07-009.png",
+    "width_px": 971,
+    "height_px": 1263,
+    "aspect_ratio": 0.77,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"SeNPs concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Bacterial growth (%) normalized to control\", \"unit\": \"%\"},\n  \"data_points\": [\n    {\"x_value\": 25, \"y_value\": 26, \"label\": \"EC-SeNPs vs EC\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 25, \"y_value\": 36, \"label\": \"EC-SeNPs vs MDR-EC\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 25, \"y_value\": 45, \"label\": \"EC-SeNPs vs PA\", \"variable",
+      "extractable": false
+    },
+    "tokens_used": 4197
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-011.png",
+    "path": "figures/P07/P07-011.png",
+    "width_px": 971,
+    "height_px": 1326,
+    "aspect_ratio": 0.73,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"line\",\n  \"x_axis\": {\"label\": \"Exposure times\", \"unit\": \"days\"},\n  \"y_axis\": {\"label\": \"Bacterial growth (%) normalized to control\", \"unit\": \"%\"},\n  \"data_points\": [\n    {\"x_value\": 1, \"y_value\": 80, \"label\": \"Panel A - PEN (15 mg/L)\", \"variable_extracted\": \"other\", \"confidence\": \"high\"},\n    {\"x_value\": 3, \"y_value\": 70, \"label\": \"Panel A - PEN (15 mg/L)\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 5, \"y_value\": 88, \"label\": \"Panel A - PEN (15 mg/L",
+      "extractable": false
+    },
+    "tokens_used": 4231
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-013.png",
+    "path": "figures/P07/P07-013.png",
+    "width_px": 971,
+    "height_px": 764,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"Nanoparticle concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Cell proliferation\", \"unit\": \"cells/mL\"},\n  \"data_points\": [\n    {\"x_value\": 0, \"y_value\": 18000, \"label\": \"MRSA-SeNPs 24h control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 0, \"y_value\": 48000, \"label\": \"MRSA-SeNPs 72h control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 25, \"y_value\": 20000, \"label\": \"MRSA-SeNPs 24h 25",
+      "extractable": false
+    },
+    "tokens_used": 3647
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-014.png",
+    "path": "figures/P07/P07-014.png",
+    "width_px": 971,
+    "height_px": 756,
+    "aspect_ratio": 1.28,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"Nanoparticle concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Cell proliferation\", \"unit\": \"cells/mL\"},\n  \"data_points\": [\n    {\"x_value\": 0, \"y_value\": 13000, \"label\": \"MRSA-SeNPs, melanoma, 24h control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 0, \"y_value\": 53000, \"label\": \"MRSA-SeNPs, melanoma, 72h control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 25, \"y_value\": 2000, \"label",
+      "extractable": false
+    },
+    "tokens_used": 3612
+  },
+  {
+    "paper_id": "P07",
+    "filename": "P07-016.png",
+    "path": "figures/P07/P07-016.png",
+    "width_px": 971,
+    "height_px": 773,
+    "aspect_ratio": 1.26,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "SeNPs concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Fluorescence intensity",
+        "unit": "%"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "MRSA-SeNPs 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 25,
+          "y_value": 107,
+          "label": "MRSA-SeNPs 25 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 50,
+          "y_value": 125,
+          "label": "MRSA-SeNPs 50 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 75,
+          "y_value": 148,
+          "label": "MRSA-SeNPs 75 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 158,
+          "label": "MRSA-SeNPs 100 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "MDR-EC-SeNPs 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 25,
+          "y_value": 102,
+          "label": "MDR-EC-SeNPs 25 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 50,
+          "y_value": 120,
+          "label": "MDR-EC-SeNPs 50 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 75,
+          "y_value": 128,
+          "label": "MDR-EC-SeNPs 75 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 135,
+          "label": "MDR-EC-SeNPs 100 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "SA-SeNPs 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 25,
+          "y_value": 110,
+          "label": "SA-SeNPs 25 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 50,
+          "y_value": 128,
+          "label": "SA-SeNPs 50 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 75,
+          "y_value": 142,
+          "label": "SA-SeNPs 75 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 155,
+          "label": "SA-SeNPs 100 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "EC-SeNPs 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 25,
+          "y_value": 101,
+          "label": "EC-SeNPs 25 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 50,
+          "y_value": 122,
+          "label": "EC-SeNPs 50 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 75,
+          "y_value": 128,
+          "label": "EC-SeNPs 75 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 135,
+          "label": "EC-SeNPs 100 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "MRSA-SeNPs",
+        "MDR-EC-SeNPs",
+        "SA-SeNPs",
+        "EC-SeNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "MRSA",
+        "MDR E. coli",
+        "S. aureus",
+        "E. coli"
+      ],
+      "notes": "Figure shows ROS generation (fluorescence intensity as % of control) in four bacterial strains treated with biogenic SeNPs at increasing concentrations. Panels: A=MRSA-SeNPs, B=MDR-EC-SeNPs, C=SA-SeNPs, D=EC-SeNPs. Statistical significance indicated by * (p<0.05) and ** (p<0.01). MRSA-SeNPs and SA-SeNPs show highest ROS induction (~155-158% at 100 µg/mL), while MDR-EC-SeNPs and EC-SeNPs show moderate induction (~135% at 100 µg/mL).",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3081
+  }
+]

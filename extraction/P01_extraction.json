@@ -1,0 +1,127 @@
+{
+  "paper_id": "P01",
+  "paper_title": "AgAu starch antimicrobial 2019",
+  "extraction_date": "2026-03-08",
+  "figures_total": 47,
+  "figures_analyzed": 35,
+  "data_charts_found": 20,
+  "axes_legible": 0,
+  "critical_finding": "ALL figures extracted by pdfimages have CROPPED axis labels — tick values, axis titles, and legends are cut off. This is a fundamental limitation of the pdfimages extraction method for this PDF. The figures were embedded as individual image elements (charts split into sub-components), not as complete figure panels.",
+
+  "figure_classification": {
+    "tem_sem": {
+      "count": 10,
+      "figures": ["P01-024.png", "P01-025.png", "P01-050.png", "P01-051.png", "P01-052.png", "P01-053.png", "P01-077.png", "P01-092.png", "P01-093.png", "P01-080.png (UV-Vis spectrum)"],
+      "notes": "SEM images of bacteria (E. coli, MRSA) with NP interaction, TEM/STEM of NPs with HRTEM insets. No quantitative data extractable."
+    },
+    "spectrum_uv_vis": {
+      "count": 5,
+      "figures": ["P01-005.png", "P01-011.png", "P01-058.png", "P01-065.png", "P01-080.png"],
+      "notes": "UV-Vis absorption/extinction spectra of AgAu NPs at different Ag:Au ratios. LSPR peaks in ~400-530nm range. All axes cropped — cannot extract precise peak wavelengths."
+    },
+    "spectrum_ftir": {
+      "count": 1,
+      "figures": ["P01-004.png"],
+      "notes": "FTIR spectra (3 samples). Characteristic bands at ~3400, 2920, 1640, 1380, 1050 cm⁻¹. Axes cropped."
+    },
+    "spectrum_xrd": {
+      "count": 1,
+      "figures": ["P01-019.png"],
+      "notes": "XRD patterns (4 traces: 2 experimental + 2 JCPDS references). FCC peaks at (111), (200), (220), (311). Axes cropped."
+    },
+    "spectrum_eds": {
+      "count": 1,
+      "figures": ["P01-078.png"],
+      "notes": "EDS spectrum showing Ag/Au elemental peaks. Axes cropped."
+    },
+    "size_distribution": {
+      "count": 3,
+      "figures": ["P01-021.png", "P01-026.png", "P01-027.png"],
+      "notes": "DLS or TEM size distribution histograms. P01-021 shows two overlapping distributions (green diamonds = smaller, red squares = larger). P01-026 and P01-027 are TEM histograms with Gaussian/log-normal fits. ALL axes cropped — cannot extract mean size or PDI values."
+    },
+    "bar_chart_bioassay": {
+      "count": 8,
+      "figures": ["P01-020.png", "P01-046.png", "P01-047.png", "P01-048.png", "P01-049.png", "P01-054.png", "P01-055.png", "P01-056.png", "P01-057.png"],
+      "notes": "Bar charts likely representing cell viability/cytotoxicity assays. Most show 6 bars with decreasing trend (dose-dependent). P01-054/055/056/057 have paired orange+green bars (possibly two cell lines or conditions). P01-046/047/048/049 have single gray bars. ALL axes cropped — cannot confirm if Y-axis is viability_pct, and cannot read concentration values on X-axis.",
+      "estimated_data": {
+        "P01-054": {
+          "type": "paired_bar_chart",
+          "series": ["orange", "green"],
+          "approximate_values_pct": [
+            {"group": 1, "orange": 95, "green": 95},
+            {"group": 2, "orange": 92, "green": 90},
+            {"group": 3, "orange": 89, "green": 87},
+            {"group": 4, "orange": 87, "green": 80},
+            {"group": 5, "orange": 82, "green": 78},
+            {"group": 6, "orange": 80, "green": 75}
+          ],
+          "confidence": "low",
+          "reason": "No axis labels to confirm variable or scale"
+        },
+        "P01-057": {
+          "type": "paired_bar_chart",
+          "series": ["orange", "green"],
+          "approximate_values_pct": [
+            {"group": 1, "orange": 90, "green": 92},
+            {"group": 2, "orange": 52, "green": 60},
+            {"group": 3, "orange": 52, "green": 63},
+            {"group": 4, "orange": 55, "green": 50},
+            {"group": 5, "orange": 40, "green": 44},
+            {"group": 6, "orange": 42, "green": 46}
+          ],
+          "confidence": "low",
+          "reason": "No axis labels; pattern consistent with viability assay"
+        },
+        "P01-048": {
+          "type": "single_bar_chart",
+          "approximate_values_pct": [95, 58, 50, 44, 21, 19],
+          "confidence": "low",
+          "reason": "Strong dose-dependent decrease, consistent with MIC/viability, but no axis labels"
+        }
+      }
+    },
+    "line_chart_dual_axis": {
+      "count": 4,
+      "figures": ["P01-066.png", "P01-079.png", "P01-038.png", "P01-039.png", "P01-040.png", "P01-041.png", "P01-042.png", "P01-043.png"],
+      "notes": "Dual-axis line charts with black squares and red circles series. Could represent size vs. composition, or DLS size vs. PDI. All axes cropped."
+    },
+    "line_chart_multi_series": {
+      "count": 3,
+      "figures": ["P01-028.png", "P01-029.png", "P01-030.png", "P01-031.png"],
+      "notes": "Multi-series line charts (6 series each) showing growth/saturation curves. Possibly time-kill kinetics or growth curves at different NP concentrations. Axes cropped."
+    },
+    "other_non_scientific": {
+      "count": 3,
+      "figures": ["P01-000.png", "P01-001.png", "P01-002.png", "P01-003.png"],
+      "notes": "Social media logos (LinkedIn, Twitter, YouTube) and a small icon — artifacts from PDF extraction of journal webpage elements."
+    },
+    "photograph": {
+      "count": 1,
+      "figures": ["P01-010.png"],
+      "notes": "Photo of 3 vials with colloidal NP solutions (yellow → orange → red gradient = Ag-rich to Au-rich). No quantitative data."
+    }
+  },
+
+  "extractions": [],
+
+  "new_rows_generated": 0,
+
+  "root_cause_analysis": {
+    "problem": "pdfimages extracts embedded image objects from PDFs, but scientific figures in this paper were composed of multiple vector/raster sub-elements. The axis labels, tick marks, and legends are separate text/vector elements in the PDF — NOT part of the raster images. Therefore pdfimages captures only the plot area (data region) without any axis context.",
+    "evidence": [
+      "All 47 extracted PNGs lack axis labels, tick values, and legends",
+      "Some images are social media logos (journal webpage artifacts)",
+      "Size distribution histograms have visible bars but no axis numbers",
+      "Bar charts show clear dose-dependent patterns but no Y-axis scale"
+    ],
+    "recommended_fix": [
+      "Use pdftoppm (page rendering) instead of pdfimages — renders complete pages with all text/labels intact",
+      "Then crop individual figures from the rendered pages using coordinates",
+      "Alternative: use PyMuPDF page.get_pixmap() to render pages at high DPI",
+      "Alternative: use the extract_pages.py script already in the pipeline (renders full pages)",
+      "Best: combine page rendering + Claude Vision to identify and read complete figures with context"
+    ]
+  },
+
+  "summary": "Pilot P01 analyzed 35 of 47 extracted figures. Found 20 data charts (8 bar charts likely viability/MIC, 3 size distributions, 5 UV-Vis spectra, 4+ line charts) but ALL have cropped axis labels due to pdfimages extracting only raster plot areas without vector text overlays. Zero new dataset rows could be reliably generated. The extraction method must change from pdfimages to full-page rendering (pdftoppm/extract_pages.py) before Claude Vision can extract quantitative data."
+}

@@ -176,14 +176,23 @@ def extract_from_figure(client: anthropic.Anthropic, fig_meta: dict) -> dict:
 def run(figures_dir: str, output_path: str, paper_filter: str = None, delay: float = 2.0) -> None:
     """Pipeline principal de extracción."""
     figures_dir = Path(figures_dir)
+    
+    # Prefer candidates.json (pre-filtered charts) over metadata.json (all figures)
+    candidates_path = figures_dir / "candidates.json"
     metadata_path = figures_dir / "metadata.json"
-
-    if not metadata_path.exists():
-        logger.error(f"metadata.json no encontrado en {figures_dir}")
+    
+    if candidates_path.exists():
+        source_path = candidates_path
+        logger.info(f"Using candidates.json (pre-filtered charts)")
+    elif metadata_path.exists():
+        source_path = metadata_path
+        logger.info(f"Using metadata.json (all figures — no candidates filter)")
+    else:
+        logger.error(f"Neither candidates.json nor metadata.json found in {figures_dir}")
         logger.error("Ejecuta primero: python nps_pipeline/extract_figures.py")
         return
 
-    with open(metadata_path, encoding="utf-8") as f:
+    with open(source_path, encoding="utf-8") as f:
         all_figures = json.load(f)
 
     # Filtrar por paper si se especifica

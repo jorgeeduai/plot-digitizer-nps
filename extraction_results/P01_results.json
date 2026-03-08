@@ -1,0 +1,4886 @@
+{
+  "meta": {
+    "paper_id": "P01",
+    "paper_title": "AgAu bimetallic NPs synthesized with starch - antimicrobial (2019)",
+    "extraction_method": "full_page_claude_vision",
+    "extraction_model": "claude-opus-4-6",
+    "extraction_date": "2026-03-08T02:35:29.737701",
+    "total_pages_analyzed": 20,
+    "pages_with_figures_or_tables": 11,
+    "total_data_points_extracted": 225,
+    "total_tokens_used": 80526,
+    "estimated_cost_usd": 2.4158
+  },
+  "pages": [
+    {
+      "page_num": 1,
+      "filename": "P01-01.png",
+      "file_size_bytes": 1206169,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "First page of the paper containing the title, author list, affiliations, abstract, keywords, and beginning of the Introduction section. The abstract contains quantitative data about nanoparticle sizes and general results descriptions.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "size_nm",
+            "value": 28.5,
+            "condition": "AuNPs, mean particle size from TEM/XRD",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.7,
+            "condition": "Ag/AuNPs (bimetallic), mean particle size from TEM/XRD",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 2898
+    },
+    {
+      "page_num": 2,
+      "filename": "P01-02.png",
+      "file_size_bytes": 1309944,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "Introduction section of the paper discussing antimicrobial resistance, nanotechnology in medicine, green nanotechnology synthesis methods, and starch-based nanoparticle synthesis. No figures, tables, or quantitative experimental data are present on this page.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": []
+      },
+      "tokens_used": 2784
+    },
+    {
+      "page_num": 3,
+      "filename": "P01-03.png",
+      "file_size_bytes": 1503781,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": true,
+        "page_description": "Materials and methods section including chemicals, synthesis of colloidal noble metal NPs, and characterization techniques. Contains Table 1 with experimental parameters for AuNPs and Ag/AuNPs synthesis.",
+        "figures_found": [],
+        "tables_found": [
+          {
+            "table_id": "Table 1",
+            "table_description": "Experimental parameters used in the synthesis of colloidal AuNPs and Ag/AuNPs",
+            "rows": [
+              {
+                "System": "Ag/AuNPs",
+                "1% (w/v) starch solution (μL)": "500",
+                "25 mM AgNO3 (μL)": "250",
+                "25 mM NaAuCl4 (μL)": "250"
+              },
+              {
+                "System": "AuNPs",
+                "1% (w/v) starch solution (μL)": "500",
+                "25 mM AgNO3 (μL)": "0",
+                "25 mM NaAuCl4 (μL)": "250"
+              }
+            ]
+          }
+        ],
+        "text_data_mentioned": [
+          {
+            "parameter": "other",
+            "value": 22.41,
+            "error_margin": 0.51,
+            "condition": "amylose content (wt%) of potato starch determined by enzymatic method",
+            "units": "%",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 70,
+            "error_margin": 1,
+            "condition": "reaction temperature in °C for synthesis",
+            "units": "°C",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 11,
+            "error_margin": 0.2,
+            "condition": "pH value for synthesis reaction",
+            "units": "pH",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 18.2,
+            "condition": "water resistivity (MΩ cm) used for experiments",
+            "units": "MΩ cm",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": null,
+            "condition": "UV-Vis spectra measured in range 300-800 nm with scan step 0.5 nm, scan speed 20 nm/min, diluted 1:5 ratio",
+            "units": "nm",
+            "confidence": "low"
+          }
+        ]
+      },
+      "tokens_used": 3360
+    },
+    {
+      "page_num": 4,
+      "filename": "P01-04.png",
+      "file_size_bytes": 1473011,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "Methods section describing DLS/zeta-potential measurements, ICP-MS analysis, STEM/HRTEM/EDS imaging, SEM sample preparation, bacterial culture protocols, antibacterial assay methods (growth curves and Gompertz model fitting), and colony-counting unit assays. Contains equations (1) and (2) for the modified Gompertz model.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "other",
+            "value": 0.9998,
+            "condition": "ICP-MS calibration correlation coefficient for Ag",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 0.9996,
+            "condition": "ICP-MS calibration correlation coefficient for Au",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 0.12,
+            "condition": "Procedure detection limit for Ag in μg/mL",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 2.0,
+            "condition": "Procedure detection limit for Au in μg/mL",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 3019
+    },
+    {
+      "page_num": 5,
+      "filename": "P01-05.png",
+      "file_size_bytes": 1392650,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "Methods and beginning of Results and Discussion sections describing SEM sample preparation, in vitro cytotoxicity assay protocols, statistical analyses, and synthesis of colloidal AuNPs and Ag/AuNPs using starch as reducing/capping agent with discussion of electrochemical potentials.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "other",
+            "value": 10,
+            "condition": "NP concentration selected for bacteria experiments, μg/mL",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 1000000,
+            "condition": "Final bacterial concentration 10^6 CFU/mL",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": -0.6,
+            "condition": "Standard reduction potential [E°] of gluconic acid at pH≈10, V",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 0.8,
+            "condition": "E° for Ag+/Ag° precursor ions, V versus NHE",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 1.0,
+            "condition": "E° for AuCl4-/Au°, V versus NHE",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 50000,
+            "condition": "Cell seeding concentration 5×10^4 cells/mL in 96-well plates",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 3131
+    },
+    {
+      "page_num": 6,
+      "filename": "P01-06.png",
+      "file_size_bytes": 1485882,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": true,
+        "page_description": "Page contains FT-IR spectra (Figure 1), UV-Vis absorption spectra with inset photograph of colloids (Figure 2), and Table 2 summarizing particle size data from DLS, TEM, UV-visible spectroscopy and XRD. Text discusses optical properties and characterization of AuNPs, AgNPs, and Ag/AuNPs.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 1",
+            "figure_type": "FTIR",
+            "x_axis_label": "Wavenumber ω (cm⁻¹)",
+            "y_axis_label": "Transmittance",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 3403,
+                "error_margin": null,
+                "condition": "Broad band, O-H stretching, all samples (AuNPs, Ag/AuNPs, Starch)",
+                "units": "cm⁻¹",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 1023,
+                "error_margin": null,
+                "condition": "C-O stretching from anhydroglucose rings",
+                "units": "cm⁻¹",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 2900,
+                "error_margin": null,
+                "condition": "C-H bond stretching, ring methylene hydrogen atoms",
+                "units": "cm⁻¹",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 2",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 402,
+                "error_margin": null,
+                "condition": "AgNPs, colloidal",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 521,
+                "error_margin": null,
+                "condition": "AuNPs, colloidal",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 463,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, colloidal alloy",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 406,
+                "error_margin": 2,
+                "condition": "Ag/AuNPs, λ_max from text (Figures 2 and S1)",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 402,
+                "error_margin": null,
+                "condition": "AgNPs + AuNPs physical mixture 1:1 v/v, first band (Ag contribution)",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 521,
+                "error_margin": null,
+                "condition": "AgNPs + AuNPs physical mixture 1:1 v/v, second band (Au contribution)",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          }
+        ],
+        "tables_found": [
+          {
+            "table_id": "Table 2",
+            "table_description": "Summary of particle size of the noble metal NP systems determined by DLS, TEM, UV-visible spectroscopy and XRD",
+            "rows": [
+              {
+                "System": "Ag/AuNPs",
+                "DLS_nm": "9.4±2.8",
+                "TEM_nm": "9.7±3.2",
+                "UV-visible_nm": "~7",
+                "XRD_nm": "10.3±4.5"
+              },
+              {
+                "System": "AuNPs",
+                "DLS_nm": "29.3±8.6",
+                "TEM_nm": "28.5±2.0",
+                "UV-visible_nm": "27.4±2.0",
+                "XRD_nm": "22.5±9.9"
+              }
+            ]
+          }
+        ],
+        "text_data_mentioned": [
+          {
+            "parameter": "lspr_nm",
+            "value": 463,
+            "condition": "Ag/AuNPs λ_max",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": 521,
+            "condition": "AuNPs λ_max",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": 470,
+            "condition": "5-10 nm Ag/Au alloy NPs reported λ_max, nominal 1:1 composition",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 27.4,
+            "error_margin": 2.0,
+            "condition": "AuNPs, nominal 1:1 composition, mean particle size from Khlebtsov empirical equation",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 28.5,
+            "error_margin": 2.0,
+            "condition": "AuNPs by TEM imaging",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": 524,
+            "error_margin": 2,
+            "condition": "AuNPs λ_max from text (nominal 1:1, ~27.4±2.0 nm)",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": 406,
+            "error_margin": 2,
+            "condition": "Ag/AuNPs colloidal λ_max",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.4,
+            "error_margin": 2.8,
+            "condition": "Ag/AuNPs by DLS, hydrodynamic diameter",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.7,
+            "error_margin": 3.2,
+            "condition": "Ag/AuNPs by TEM",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 29.3,
+            "error_margin": 8.6,
+            "condition": "AuNPs by DLS, hydrodynamic diameter",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 4553
+    },
+    {
+      "page_num": 7,
+      "filename": "P01-07.png",
+      "file_size_bytes": 1492842,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Page contains Figure 3 (UV-Vis absorption spectra for Ag/AuNPs and AuNPs across 6 repetitions) and Figure 4 (XRD patterns for AuNPs, Ag/AuNPs, FCC Ag, and FCC Au). Text discusses reproducibility of synthesis, stability over 50 days, and structural characterization by XRD.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 3A",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance (au)",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 462,
+                "error_margin": 1,
+                "condition": "Ag/AuNPs, 6 repetitions averaged",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 3B",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance (au)",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 524,
+                "error_margin": 2,
+                "condition": "AuNPs, 6 repetitions averaged",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 4",
+            "figure_type": "XRD",
+            "x_axis_label": "Diffraction angle 2θ (degree)",
+            "y_axis_label": "Intensity",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 38.3,
+                "error_margin": null,
+                "condition": "XRD peak (111) plane, AuNPs and Ag/AuNPs",
+                "units": "degrees 2θ",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 44.5,
+                "error_margin": null,
+                "condition": "XRD peak (200) plane, AuNPs and Ag/AuNPs",
+                "units": "degrees 2θ",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 64.8,
+                "error_margin": null,
+                "condition": "XRD peak (220) plane, AuNPs and Ag/AuNPs",
+                "units": "degrees 2θ",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 77.8,
+                "error_margin": null,
+                "condition": "XRD peak (311) plane, AuNPs and Ag/AuNPs",
+                "units": "degrees 2θ",
+                "confidence": "high"
+              },
+              {
+                "parameter": "other",
+                "value": 81.8,
+                "error_margin": null,
+                "condition": "XRD peak (222) plane, AuNPs and Ag/AuNPs",
+                "units": "degrees 2θ",
+                "confidence": "high"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "lspr_nm",
+            "value": 462,
+            "error_margin": 1,
+            "condition": "Ag/AuNPs, λ_max from UV-Vis",
+            "confidence": "high"
+          },
+          {
+            "parameter": "lspr_nm",
+            "value": 524,
+            "error_margin": 2,
+            "condition": "AuNPs, λ_max from UV-Vis",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 1,
+            "error_margin": null,
+            "condition": "Δλ_max red shift for AuNPs over 50 days, units: nm",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 3,
+            "error_margin": null,
+            "condition": "Δλ_max red shift for Ag/AuNPs over 50 days, units: nm",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": -0.3,
+            "error_margin": null,
+            "condition": "ΔAbs at λ_max for AuNPs over 50 days",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": -0.02,
+            "error_margin": null,
+            "condition": "ΔAbs at λ_max for Ag/AuNPs over 50 days",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 4025
+    },
+    {
+      "page_num": 8,
+      "filename": "P01-08.png",
+      "file_size_bytes": 1186427,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": true,
+        "page_description": "Page contains Table 3 (cubic lattice parameter and crystallite size from XRD), Figure 5A (DLS hydrodynamic diameter distribution), Figure 5B (zeta potential bar chart), and text discussing DLS, zeta potential, TEM size, and colloidal stability results.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 5A",
+            "figure_type": "DLS",
+            "x_axis_label": "Hydrodynamic diameter (nm)",
+            "y_axis_label": "Number (%)",
+            "data_points": [
+              {
+                "parameter": "size_nm",
+                "value": 29.3,
+                "error_margin": 8.6,
+                "condition": "AuNPs, DLS number-based, 25°C",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "size_nm",
+                "value": 9.4,
+                "error_margin": 2.8,
+                "condition": "Ag/AuNPs (AgAuNPs), DLS number-based, 25°C",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 5B",
+            "figure_type": "zeta_potential",
+            "x_axis_label": "Sample (Ag/AuNPs, AuNPs)",
+            "y_axis_label": "ζ-potential (mV)",
+            "data_points": [
+              {
+                "parameter": "zeta_mv",
+                "value": -20,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, pH=6.8, 25°C",
+                "units": "mV",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "zeta_mv",
+                "value": -40,
+                "error_margin": 10,
+                "condition": "AuNPs, pH=7.8, 25°C",
+                "units": "mV",
+                "confidence": "medium"
+              }
+            ]
+          }
+        ],
+        "tables_found": [
+          {
+            "table_id": "Table 3",
+            "table_description": "Cubic lattice parameter (a) and crystallite size (L) for Ag/AuNPs and AuNPs from experimental XRD patterns",
+            "rows": [
+              {
+                "System": "Ag/AuNPs",
+                "Experimental (a/Å)": "4.065±0.008",
+                "Reported values for a/Å": "4.0562",
+                "Experimental (L/nm)": "10.3±4.5"
+              },
+              {
+                "System": "AuNPs",
+                "Experimental (a/Å)": "4.075±0.002",
+                "Reported values for a/Å": "4.0762",
+                "Experimental (L/nm)": "23.5±10.3"
+              }
+            ]
+          }
+        ],
+        "text_data_mentioned": [
+          {
+            "parameter": "size_nm",
+            "value": 29.3,
+            "error_margin": 8.6,
+            "condition": "AuNPs, hydrodynamic diameter by DLS",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.4,
+            "error_margin": 2.8,
+            "condition": "Ag/Au alloy NPs, hydrodynamic diameter by DLS",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 28.5,
+            "error_margin": 2.0,
+            "condition": "AuNPs, TEM mean diameter Dmean ± SD, RSD 7.0%",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.7,
+            "error_margin": 3.2,
+            "condition": "Ag/AuNPs, TEM mean diameter Dmean ± SD, RSD 32.1%",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 30,
+            "condition": "Critical zeta potential threshold for colloidal stability (±30 mV)",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 3850
+    },
+    {
+      "page_num": 9,
+      "filename": "P01-09.png",
+      "file_size_bytes": 1278585,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Page contains Figure 6 with STEM images and particle size distribution histograms for Ag/AuNPs and AuNPs, plus HRTEM insets. Below the figure, text discusses chemical composition from ICP-MS and antimicrobial properties.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 6A - STEM image",
+            "figure_type": "TEM",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "Ag/AuNPs STEM image with 50 nm scale bar, inset with 5 nm scale bar",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 6A - histogram",
+            "figure_type": "size_distribution",
+            "x_axis_label": "Particle size (nm)",
+            "y_axis_label": "Frequency",
+            "data_points": [
+              {
+                "parameter": "size_nm",
+                "value": 9.7,
+                "error_margin": 3.2,
+                "condition": "Ag/AuNPs, Dmean, SD=3.2 nm, Counts=125",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 6B - STEM image",
+            "figure_type": "TEM",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "AuNPs STEM image with 50 nm scale bar, HRTEM inset with 10 nm scale bar showing twin planes",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 6B - histogram",
+            "figure_type": "size_distribution",
+            "x_axis_label": "Particle size (nm)",
+            "y_axis_label": "Frequency",
+            "data_points": [
+              {
+                "parameter": "size_nm",
+                "value": 28.5,
+                "error_margin": 2.0,
+                "condition": "AuNPs, Dmean, SD=2.0 nm, Counts=125",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "ag_at_pct",
+            "value": 44.97,
+            "error_margin": 3.87,
+            "condition": "Ag/AuNPs composition from EDX, Ag:Au atomic ratio=0.818",
+            "confidence": "high"
+          },
+          {
+            "parameter": "au_at_pct",
+            "value": 55.03,
+            "error_margin": 3.87,
+            "condition": "Ag/AuNPs composition from EDX, Ag:Au atomic ratio=0.818",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 95.8,
+            "error_margin": null,
+            "condition": "AuNPs molar concentration from ICP-MS, μg/mL",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 17.0,
+            "error_margin": null,
+            "condition": "Ag/AuNPs Ag concentration from ICP-MS, μg/mL",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": 35.1,
+            "error_margin": null,
+            "condition": "Ag/AuNPs Au concentration from ICP-MS, μg/mL, Ag:Au atomic ratio=1.13",
+            "confidence": "high"
+          },
+          {
+            "parameter": "other",
+            "value": null,
+            "error_margin": null,
+            "condition": "Antibacterial assays on MRSA and MDR E. coli, NP concentrations between 1 and 20 μg/mL for AuNPs and Ag/AuNPs",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 3872
+    },
+    {
+      "page_num": 10,
+      "filename": "P01-10.png",
+      "file_size_bytes": 1183602,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Figure 7 showing bacterial growth curves (CFU/mL over time) for MDR E. coli and MRSA treated with AuNPs (panels A, B) and Ag/AuNPs (panels C, D) at different concentrations (0-20 μg/mL) over 700 minutes. Text discusses antibacterial effects and growth parameters.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 7A",
+            "figure_type": "line_plot",
+            "x_axis_label": "Time (minutes)",
+            "y_axis_label": "Bacterial proliferation (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 700000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 0 μg/mL, ~700 min, max growth",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 650000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 1 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 550000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 5 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 500000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 10 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 600000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 15 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 500000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, AuNPs 20 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 7B",
+            "figure_type": "line_plot",
+            "x_axis_label": "Time (minutes)",
+            "y_axis_label": "Bacterial proliferation (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 18000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 0 μg/mL, ~700 min, max growth",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 16000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 1 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 14000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 5 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 12000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 10 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 10000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 15 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 8000000.0,
+                "error_margin": null,
+                "condition": "MRSA, AuNPs 20 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 7C",
+            "figure_type": "line_plot",
+            "x_axis_label": "Time (minutes)",
+            "y_axis_label": "Bacterial proliferation (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 700000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 0 μg/mL, ~700 min, max growth",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 600000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 1 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 400000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 5 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 350000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 10 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 250000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 15 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 200000000.0,
+                "error_margin": null,
+                "condition": "MDR E. coli, Ag/AuNPs 20 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 7D",
+            "figure_type": "line_plot",
+            "x_axis_label": "Time (minutes)",
+            "y_axis_label": "Bacterial proliferation (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 14000000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 0 μg/mL, ~700 min, max growth",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 12000000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 1 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 11000000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 5 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 8000000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 10 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 5500000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 15 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 4000000.0,
+                "error_margin": null,
+                "condition": "MRSA, Ag/AuNPs 20 μg/mL, ~700 min",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "other",
+            "value": 1000000.0,
+            "condition": "Initial bacterial suspension concentration (10^6 CFU/mL) for growth experiments, 24 hours",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 5256
+    },
+    {
+      "page_num": 11,
+      "filename": "P01-11.png",
+      "file_size_bytes": 589728,
+      "status": "done",
+      "extraction": {
+        "error": "JSON parse failed",
+        "raw": "```json\n{\n  \"page_has_figures\": true,\n  \"page_has_tables\": false,\n  \"page_description\": \"Figure 8 showing Modified Gompertz equation parameters A, μ, and λ for increasing concentrations of AuNPs and Ag/AuNPs against MDR E. coli (panels A, C, E) and MRSA (panels B, D, F). Growth of 10^6 CFU/mL suspension over 24 hours.\",\n  \"figures_found\": [\n    {\n      \"figure_id\": \"Fig. 8A\",\n      \"figure_type\": \"line_plot\",\n      \"x_axis_label\": \"Nanoparticle concentration (μg/mL)\",\n      \"y_axis_label\": \"Para"
+      },
+      "tokens_used": 6664
+    },
+    {
+      "page_num": 12,
+      "filename": "P01-12.png",
+      "file_size_bytes": 753260,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Figure 9 showing colony-counting assay results for MDR E. coli and MRSA treated with monometallic AuNPs (panels A, B) and bimetallic Ag/AuNPs (panels C, D) at various nanoparticle concentrations (0-20 μg/mL) after 8 hours of treatment.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 9A",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Bacterial concentration (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 750000000.0,
+                "error_margin": 150000000.0,
+                "condition": "AuNPs, 0 μg/mL, MDR E. coli, 8h (control)",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 700000000.0,
+                "error_margin": 100000000.0,
+                "condition": "AuNPs, 1 μg/mL, MDR E. coli, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 650000000.0,
+                "error_margin": 150000000.0,
+                "condition": "AuNPs, 5 μg/mL, MDR E. coli, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 400000000.0,
+                "error_margin": 50000000.0,
+                "condition": "AuNPs, 10 μg/mL, MDR E. coli, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 350000000.0,
+                "error_margin": 50000000.0,
+                "condition": "AuNPs, 15 μg/mL, MDR E. coli, 8h, **p<0.05",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 400000000.0,
+                "error_margin": 50000000.0,
+                "condition": "AuNPs, 20 μg/mL, MDR E. coli, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 9B",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Bacterial concentration (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 16500000.0,
+                "error_margin": 2000000.0,
+                "condition": "AuNPs, 0 μg/mL, MRSA, 8h (control)",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 17000000.0,
+                "error_margin": 2000000.0,
+                "condition": "AuNPs, 1 μg/mL, MRSA, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 16500000.0,
+                "error_margin": 1500000.0,
+                "condition": "AuNPs, 5 μg/mL, MRSA, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 15000000.0,
+                "error_margin": 2500000.0,
+                "condition": "AuNPs, 10 μg/mL, MRSA, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 14000000.0,
+                "error_margin": 2000000.0,
+                "condition": "AuNPs, 15 μg/mL, MRSA, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 12000000.0,
+                "error_margin": 1500000.0,
+                "condition": "AuNPs, 20 μg/mL, MRSA, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 9C",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Bacterial concentration (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 950000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 0 μg/mL, MDR E. coli, 8h (control)",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 500000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 1 μg/mL, MDR E. coli, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 320000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 5 μg/mL, MDR E. coli, 8h, **p<0.05",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 300000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 10 μg/mL, MDR E. coli, 8h, **p<0.05",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 150000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 15 μg/mL, MDR E. coli, 8h, ***p<0.0005",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 180000000.0,
+                "error_margin": 50000000.0,
+                "condition": "Ag/AuNPs, 20 μg/mL, MDR E. coli, 8h, **p<0.05",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 9D",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Bacterial concentration (CFU/mL)",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 21000000.0,
+                "error_margin": 2000000.0,
+                "condition": "Ag/AuNPs, 0 μg/mL, MRSA, 8h (control)",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 20000000.0,
+                "error_margin": 2000000.0,
+                "condition": "Ag/AuNPs, 1 μg/mL, MRSA, 8h",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 17000000.0,
+                "error_margin": 1500000.0,
+                "condition": "Ag/AuNPs, 5 μg/mL, MRSA, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 10500000.0,
+                "error_margin": 1000000.0,
+                "condition": "Ag/AuNPs, 10 μg/mL, MRSA, 8h, ***p<0.0005",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 12000000.0,
+                "error_margin": 1500000.0,
+                "condition": "Ag/AuNPs, 15 μg/mL, MRSA, 8h, *p<0.1",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "other",
+                "value": 8000000.0,
+                "error_margin": 1000000.0,
+                "condition": "Ag/AuNPs, 20 μg/mL, MRSA, 8h, ***p<0.0005",
+                "units": "CFU/mL",
+                "confidence": "medium"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "mic_ug_ml",
+            "value": 10,
+            "condition": "AuNPs antibacterial effect on MDR E. coli observed at concentrations 10-20 μg/mL (from text)",
+            "confidence": "medium"
+          },
+          {
+            "parameter": "mic_ug_ml",
+            "value": 1,
+            "condition": "Ag/AuNPs significant inhibition of MDR E. coli at concentrations 1-20 μg/mL, >50% inhibition at low concentrations (from text)",
+            "confidence": "medium"
+          },
+          {
+            "parameter": "mic_ug_ml",
+            "value": 10,
+            "condition": "Ag/AuNPs antimicrobial effect on MRSA at concentrations 10-20 μg/mL (from text)",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "tokens_used": 5688
+    },
+    {
+      "page_num": 13,
+      "filename": "P01-13.png",
+      "file_size_bytes": 1865665,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": true,
+        "page_description": "Page contains Table 4 with IC50 values for AuNPs and Ag/AuNPs against MDR E. coli and MRSA, Figure 10 showing SEM micrographs of MDR E. coli and MRSA cells after treatment with AuNPs and Ag/AuNPs, and text discussing antimicrobial mechanisms and SEM cell fixation study results.",
+        "figures_found": [
+          {
+            "figure_id": "Figure 10A",
+            "figure_type": "SEM",
+            "x_axis_label": "N/A",
+            "y_axis_label": "N/A",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "MDR E. coli treated with AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure 10B",
+            "figure_type": "SEM",
+            "x_axis_label": "N/A",
+            "y_axis_label": "N/A",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "MDR E. coli treated with Ag/AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure 10C",
+            "figure_type": "SEM",
+            "x_axis_label": "N/A",
+            "y_axis_label": "N/A",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "MRSA treated with AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure 10D",
+            "figure_type": "SEM",
+            "x_axis_label": "N/A",
+            "y_axis_label": "N/A",
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": null,
+                "error_margin": null,
+                "condition": "MRSA treated with Ag/AuNPs, 8 hours, scale bar 1.00 μm, 45.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          }
+        ],
+        "tables_found": [
+          {
+            "table_id": "Table 4",
+            "table_description": "IC50 values for different noble metal NPs against MDR E. coli and MRSA",
+            "rows": [
+              {
+                "System": "AuNPs",
+                "MDR_E_coli_IC50_ug_ml": "7.02±1.31",
+                "MRSA_IC50_ug_ml": "12.29±3.77"
+              },
+              {
+                "System": "Ag/AuNPs",
+                "MDR_E_coli_IC50_ug_ml": "4.92±0.81",
+                "MRSA_IC50_ug_ml": "6.95±1.70"
+              }
+            ]
+          }
+        ],
+        "text_data_mentioned": [
+          {
+            "parameter": "ic50_ug_ml",
+            "value": 7.02,
+            "error_margin": 1.31,
+            "condition": "AuNPs against MDR E. coli",
+            "confidence": "high"
+          },
+          {
+            "parameter": "ic50_ug_ml",
+            "value": 12.29,
+            "error_margin": 3.77,
+            "condition": "AuNPs against MRSA",
+            "confidence": "high"
+          },
+          {
+            "parameter": "ic50_ug_ml",
+            "value": 4.92,
+            "error_margin": 0.81,
+            "condition": "Ag/AuNPs against MDR E. coli",
+            "confidence": "high"
+          },
+          {
+            "parameter": "ic50_ug_ml",
+            "value": 6.95,
+            "error_margin": 1.7,
+            "condition": "Ag/AuNPs against MRSA",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 3934
+    },
+    {
+      "page_num": 14,
+      "filename": "P01-14.png",
+      "file_size_bytes": 623945,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Page contains 4 bar charts showing MTS cytotoxicity assays. Figure 11 shows HDF cells treated with AuNPs (A) and Ag/AuNPs (B). Figure 12 shows MEL (melanoma) cells treated with AuNPs (A) and Ag/AuNPs (B). Concentrations range from 0-20 μg/mL at 24 and 72 hours.",
+        "figures_found": [
+          {
+            "figure_id": "Fig. 11A",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Cell proliferation (%)",
+            "data_points": [
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "AuNPs, 0 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "AuNPs, 0 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 10,
+                "condition": "AuNPs, 1 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 15,
+                "condition": "AuNPs, 1 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 88,
+                "error_margin": 10,
+                "condition": "AuNPs, 5 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 80,
+                "error_margin": 15,
+                "condition": "AuNPs, 5 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 10,
+                "condition": "AuNPs, 10 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 78,
+                "error_margin": 12,
+                "condition": "AuNPs, 10 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 10,
+                "condition": "AuNPs, 15 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 78,
+                "error_margin": 15,
+                "condition": "AuNPs, 15 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 10,
+                "condition": "AuNPs, 20 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 75,
+                "error_margin": 15,
+                "condition": "AuNPs, 20 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 11B",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Cell proliferation (%)",
+            "data_points": [
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 0 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 0 μg/mL, HDF, 72h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 1 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 80,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 1 μg/mL, HDF, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 88,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 5 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 75,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 5 μg/mL, HDF, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 10 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 60,
+                "error_margin": 15,
+                "condition": "Ag/AuNPs, 10 μg/mL, HDF, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 15 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 80,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 15 μg/mL, HDF, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 82,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 20 μg/mL, HDF, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 72,
+                "error_margin": 10,
+                "condition": "Ag/AuNPs, 20 μg/mL, HDF, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 12A",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Cell proliferation (%)",
+            "data_points": [
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "AuNPs, 0 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "AuNPs, 0 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 95,
+                "error_margin": 10,
+                "condition": "AuNPs, 1 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 95,
+                "error_margin": 15,
+                "condition": "AuNPs, 1 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 95,
+                "error_margin": 10,
+                "condition": "AuNPs, 5 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 12,
+                "condition": "AuNPs, 5 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 10,
+                "condition": "AuNPs, 10 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 15,
+                "condition": "AuNPs, 10 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 88,
+                "error_margin": 10,
+                "condition": "AuNPs, 15 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 85,
+                "error_margin": 12,
+                "condition": "AuNPs, 15 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 88,
+                "error_margin": 10,
+                "condition": "AuNPs, 20 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 82,
+                "error_margin": 15,
+                "condition": "AuNPs, 20 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Fig. 12B",
+            "figure_type": "bar_chart",
+            "x_axis_label": "Nanoparticle concentration (μg/mL)",
+            "y_axis_label": "Cell proliferation (%)",
+            "data_points": [
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 0 μg/mL, melanoma, 24h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 100,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 0 μg/mL, melanoma, 72h",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 80,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 1 μg/mL, melanoma, 24h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 20,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 1 μg/mL, melanoma, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 78,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 5 μg/mL, melanoma, 24h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 15,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 5 μg/mL, melanoma, 72h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 65,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 10 μg/mL, melanoma, 24h (*p<0.01)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 12,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 10 μg/mL, melanoma, 72h (**p<0.005)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 60,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 15 μg/mL, melanoma, 24h (**p<0.005)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 10,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 15 μg/mL, melanoma, 72h (**p<0.005)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 55,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 20 μg/mL, melanoma, 24h (**p<0.005)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 10,
+                "error_margin": 5,
+                "condition": "Ag/AuNPs, 20 μg/mL, melanoma, 72h (**p<0.005)",
+                "units": "%",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "viabilidad_pct",
+                "value": 90,
+                "error_margin": 8,
+                "condition": "Ag/AuNPs, 0 μg/mL (control), melanoma, 24h",
+                "units": "%",
+                "confidence": "medium"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "viabilidad_pct",
+            "value": null,
+            "condition": "AuNPs 1-20 μg/mL, HDF cells, no significant cytotoxicity found",
+            "confidence": "high"
+          },
+          {
+            "parameter": "viabilidad_pct",
+            "value": null,
+            "condition": "Ag/AuNPs showed higher cytotoxic effect in HDF compared to AuNPs, especially at 72h (day 3)",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 6571
+    },
+    {
+      "page_num": 15,
+      "filename": "P01-15.png",
+      "file_size_bytes": 1655935,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "Final page containing conclusion, acknowledgments, disclosure, and references. Contains summary text with some quantitative values mentioned in the conclusion section.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "size_nm",
+            "value": 28.5,
+            "error_margin": 2.0,
+            "condition": "AuNPs, starch-stabilized, from text conclusion",
+            "units": "nm",
+            "confidence": "high"
+          },
+          {
+            "parameter": "size_nm",
+            "value": 9.7,
+            "error_margin": 3.2,
+            "condition": "Ag/AuNPs bimetallic, polydispersity degree particle sizes, from text conclusion",
+            "units": "nm",
+            "confidence": "high"
+          },
+          {
+            "parameter": "viabilidad_pct",
+            "value": 50,
+            "condition": "Ag/AuNP bimetallic, cell proliferation inhibition close to 50% for most of the NP concentration range, cancer cells",
+            "units": "%",
+            "confidence": "medium"
+          },
+          {
+            "parameter": "viabilidad_pct",
+            "value": 60,
+            "condition": "AuNPs monometallic, over 60% of cells grew and proliferated, no significant cytotoxic effect, HDF cells",
+            "units": "%",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "tokens_used": 3083
+    },
+    {
+      "page_num": 16,
+      "filename": "P01-16.png",
+      "file_size_bytes": 1806564,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "This page contains only a references list (references 18-54) from the research paper. No figures, tables, or quantitative data are present on this page.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": []
+      },
+      "tokens_used": 2765
+    },
+    {
+      "page_num": 17,
+      "filename": "P01-17.png",
+      "file_size_bytes": 580684,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "References page containing bibliography entries numbered 55-65. No figures, tables, or quantitative data present on this page.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": []
+      },
+      "tokens_used": 2756
+    },
+    {
+      "page_num": 18,
+      "filename": "P01-18.png",
+      "file_size_bytes": 949861,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": false,
+        "page_description": "Supplementary materials page containing UV-Vis spectra for AgNPs (Figure S1) showing reproducibility across 6 repetitions, and Ag/AuNPs stability over 50 days (Figure S2 continued) with LSPR peak wavelength and absorbance tracking over time.",
+        "figures_found": [
+          {
+            "figure_id": "Figure S1",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance (au)",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 406,
+                "error_margin": 2,
+                "condition": "AgNPs, 25 mM AgNO3, 500 μL 1% starch, pH=11, 70°C, 2h, average of 6 repetitions",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 1.0,
+                "error_margin": null,
+                "condition": "AgNPs, peak absorbance at λ_max=406 nm, normalized",
+                "units": "a.u.",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S2A (left panel)",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance",
+            "data_points": [
+              {
+                "parameter": "absorbance",
+                "value": 0.22,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 0, peak absorbance",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.2,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 5, peak absorbance",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.18,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 10, peak absorbance",
+                "units": "a.u.",
+                "confidence": "low"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.1,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 50, peak absorbance",
+                "units": "a.u.",
+                "confidence": "medium"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S2A (right panel)",
+            "figure_type": "line_plot",
+            "x_axis_label": "Days",
+            "y_axis_label": "λ_max (nm) and Abs @ λ_max",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 462,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 0",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 463,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 5",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 464,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 10",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 467.5,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 20",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 466,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 25",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 464,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 30",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 464,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Day 50",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.22,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Abs @ λ_max, Day 0",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.3,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Abs @ λ_max, Day 25",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.2,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Abs @ λ_max, Day 30",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.1,
+                "error_margin": null,
+                "condition": "Ag/AuNPs, Abs @ λ_max, Day 50",
+                "units": "a.u.",
+                "confidence": "medium"
+              }
+            ]
+          }
+        ],
+        "tables_found": [],
+        "text_data_mentioned": [
+          {
+            "parameter": "lspr_nm",
+            "value": 406,
+            "error_margin": 2,
+            "condition": "AgNPs, colloidal, 25 mM AgNO3, 500 μL 1% starch, pH=11, 70°C, 2h",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 4428
+    },
+    {
+      "page_num": 19,
+      "filename": "P01-19.png",
+      "file_size_bytes": 1968922,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": true,
+        "page_has_tables": true,
+        "page_description": "Page contains Figure S2 (AuNPs UV-Vis absorption spectra and stability over 50 days), Figure S3 (STEM image and EDS spectrum of Ag/Au alloy NP with composition table), and Figure S4 (SEM images of untreated MDR E. coli and MRSA controls).",
+        "figures_found": [
+          {
+            "figure_id": "Figure S2B - left",
+            "figure_type": "UV-Vis_spectrum",
+            "x_axis_label": "Wavelength λ (nm)",
+            "y_axis_label": "Absorbance (au)",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 524,
+                "error_margin": null,
+                "condition": "AuNPs, Day 0, peak approximate",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.45,
+                "error_margin": null,
+                "condition": "AuNPs, Day 0, peak absorbance",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.1,
+                "error_margin": null,
+                "condition": "AuNPs, Day 50, peak absorbance approximate",
+                "units": "a.u.",
+                "confidence": "low"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S2B - right",
+            "figure_type": "line_plot",
+            "x_axis_label": "Days",
+            "y_axis_label": "λ_max (nm) and Abs @ λ_max",
+            "data_points": [
+              {
+                "parameter": "lspr_nm",
+                "value": 524,
+                "error_margin": null,
+                "condition": "AuNPs, Day 0",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524,
+                "error_margin": null,
+                "condition": "AuNPs, Day 5",
+                "units": "nm",
+                "confidence": "high"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524.2,
+                "error_margin": null,
+                "condition": "AuNPs, Day 10",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524.5,
+                "error_margin": null,
+                "condition": "AuNPs, Day 20",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524.5,
+                "error_margin": null,
+                "condition": "AuNPs, Day 30",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524.5,
+                "error_margin": null,
+                "condition": "AuNPs, Day 40",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "lspr_nm",
+                "value": 524.5,
+                "error_margin": null,
+                "condition": "AuNPs, Day 50",
+                "units": "nm",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.5,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 0",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.45,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 5",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.42,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 10",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.35,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 20",
+                "units": "a.u.",
+                "confidence": "medium"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.32,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 30",
+                "units": "a.u.",
+                "confidence": "low"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.28,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 40",
+                "units": "a.u.",
+                "confidence": "low"
+              },
+              {
+                "parameter": "absorbance",
+                "value": 0.22,
+                "error_margin": null,
+                "condition": "AuNPs, Abs @ λ_max, Day 50",
+                "units": "a.u.",
+                "confidence": "low"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S3 - EDS spectrum",
+            "figure_type": "EDX_spectrum",
+            "x_axis_label": "Energy (keV)",
+            "y_axis_label": "Counts",
+            "data_points": [
+              {
+                "parameter": "ag_at_pct",
+                "value": 49.32,
+                "error_margin": null,
+                "condition": "Ag/Au alloy NP, point 1 in STEM image, Ag(K) line",
+                "units": "%",
+                "confidence": "high"
+              },
+              {
+                "parameter": "au_at_pct",
+                "value": 50.68,
+                "error_margin": null,
+                "condition": "Ag/Au alloy NP, point 1 in STEM image, Au(L) line",
+                "units": "%",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S3 - STEM image",
+            "figure_type": "TEM",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 10,
+                "error_margin": null,
+                "condition": "Scale bar in STEM image of Ag/Au alloy NPs",
+                "units": "nm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S4A",
+            "figure_type": "SEM",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 1.0,
+                "error_margin": null,
+                "condition": "SEM scale bar, untreated MDR E. coli control, 3.0 kV, 40.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          },
+          {
+            "figure_id": "Figure S4B",
+            "figure_type": "SEM",
+            "x_axis_label": null,
+            "y_axis_label": null,
+            "data_points": [
+              {
+                "parameter": "other",
+                "value": 2.0,
+                "error_margin": null,
+                "condition": "SEM scale bar, untreated MRSA control, 3.0 kV, 22.0k magnification",
+                "units": "μm",
+                "confidence": "high"
+              }
+            ]
+          }
+        ],
+        "tables_found": [
+          {
+            "table_id": "Figure S3 inset table",
+            "table_description": "EDS elemental composition of Ag/Au alloy NP showing weight % and atomic %",
+            "rows": [
+              {
+                "Element": "Ag(K)",
+                "wt%": "34.76",
+                "at%": "49.32"
+              },
+              {
+                "Element": "Au(L)",
+                "wt%": "65.24",
+                "at%": "50.68"
+              }
+            ]
+          }
+        ],
+        "text_data_mentioned": [
+          {
+            "parameter": "ag_at_pct",
+            "value": 49.32,
+            "condition": "Ag/Au alloy NP from EDS, Ag(K) line",
+            "confidence": "high"
+          },
+          {
+            "parameter": "au_at_pct",
+            "value": 50.68,
+            "condition": "Ag/Au alloy NP from EDS, Au(L) line",
+            "confidence": "high"
+          }
+        ]
+      },
+      "tokens_used": 5120
+    },
+    {
+      "page_num": 20,
+      "filename": "P01-20.png",
+      "file_size_bytes": 225873,
+      "status": "done",
+      "extraction": {
+        "page_has_figures": false,
+        "page_has_tables": false,
+        "page_description": "Final page of the paper containing only the journal advertisement/submission information for the International Journal of Nanomedicine (Dovepress). No scientific data, figures, or tables present.",
+        "figures_found": [],
+        "tables_found": [],
+        "text_data_mentioned": []
+      },
+      "tokens_used": 2769
+    }
+  ],
+  "summary": {
+    "parameters_found": {
+      "size_nm": 17,
+      "other": 89,
+      "lspr_nm": 33,
+      "zeta_mv": 2,
+      "ag_at_pct": 3,
+      "au_at_pct": 3,
+      "mic_ug_ml": 3,
+      "ic50_ug_ml": 4,
+      "viabilidad_pct": 53,
+      "absorbance": 18
+    },
+    "all_extracted_data": [
+      {
+        "parameter": "size_nm",
+        "value": 28.5,
+        "condition": "AuNPs, mean particle size from TEM/XRD",
+        "confidence": "high",
+        "source_page": 1,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.7,
+        "condition": "Ag/AuNPs (bimetallic), mean particle size from TEM/XRD",
+        "confidence": "high",
+        "source_page": 1,
+        "source": "text"
+      },
+      {
+        "source_page": 3,
+        "source_table": "Table 1",
+        "row_data": {
+          "System": "Ag/AuNPs",
+          "1% (w/v) starch solution (μL)": "500",
+          "25 mM AgNO3 (μL)": "250",
+          "25 mM NaAuCl4 (μL)": "250"
+        }
+      },
+      {
+        "source_page": 3,
+        "source_table": "Table 1",
+        "row_data": {
+          "System": "AuNPs",
+          "1% (w/v) starch solution (μL)": "500",
+          "25 mM AgNO3 (μL)": "0",
+          "25 mM NaAuCl4 (μL)": "250"
+        }
+      },
+      {
+        "parameter": "other",
+        "value": 22.41,
+        "error_margin": 0.51,
+        "condition": "amylose content (wt%) of potato starch determined by enzymatic method",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 3,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 70,
+        "error_margin": 1,
+        "condition": "reaction temperature in °C for synthesis",
+        "units": "°C",
+        "confidence": "high",
+        "source_page": 3,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 11,
+        "error_margin": 0.2,
+        "condition": "pH value for synthesis reaction",
+        "units": "pH",
+        "confidence": "high",
+        "source_page": 3,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 18.2,
+        "condition": "water resistivity (MΩ cm) used for experiments",
+        "units": "MΩ cm",
+        "confidence": "high",
+        "source_page": 3,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": null,
+        "condition": "UV-Vis spectra measured in range 300-800 nm with scan step 0.5 nm, scan speed 20 nm/min, diluted 1:5 ratio",
+        "units": "nm",
+        "confidence": "low",
+        "source_page": 3,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 0.9998,
+        "condition": "ICP-MS calibration correlation coefficient for Ag",
+        "confidence": "high",
+        "source_page": 4,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 0.9996,
+        "condition": "ICP-MS calibration correlation coefficient for Au",
+        "confidence": "high",
+        "source_page": 4,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 0.12,
+        "condition": "Procedure detection limit for Ag in μg/mL",
+        "confidence": "high",
+        "source_page": 4,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 2.0,
+        "condition": "Procedure detection limit for Au in μg/mL",
+        "confidence": "high",
+        "source_page": 4,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 10,
+        "condition": "NP concentration selected for bacteria experiments, μg/mL",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 1000000,
+        "condition": "Final bacterial concentration 10^6 CFU/mL",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": -0.6,
+        "condition": "Standard reduction potential [E°] of gluconic acid at pH≈10, V",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 0.8,
+        "condition": "E° for Ag+/Ag° precursor ions, V versus NHE",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 1.0,
+        "condition": "E° for AuCl4-/Au°, V versus NHE",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 50000,
+        "condition": "Cell seeding concentration 5×10^4 cells/mL in 96-well plates",
+        "confidence": "high",
+        "source_page": 5,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 3403,
+        "error_margin": null,
+        "condition": "Broad band, O-H stretching, all samples (AuNPs, Ag/AuNPs, Starch)",
+        "units": "cm⁻¹",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 1",
+        "source_figure_type": "FTIR"
+      },
+      {
+        "parameter": "other",
+        "value": 1023,
+        "error_margin": null,
+        "condition": "C-O stretching from anhydroglucose rings",
+        "units": "cm⁻¹",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 1",
+        "source_figure_type": "FTIR"
+      },
+      {
+        "parameter": "other",
+        "value": 2900,
+        "error_margin": null,
+        "condition": "C-H bond stretching, ring methylene hydrogen atoms",
+        "units": "cm⁻¹",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 1",
+        "source_figure_type": "FTIR"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 402,
+        "error_margin": null,
+        "condition": "AgNPs, colloidal",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 521,
+        "error_margin": null,
+        "condition": "AuNPs, colloidal",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 463,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, colloidal alloy",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 406,
+        "error_margin": 2,
+        "condition": "Ag/AuNPs, λ_max from text (Figures 2 and S1)",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 402,
+        "error_margin": null,
+        "condition": "AgNPs + AuNPs physical mixture 1:1 v/v, first band (Ag contribution)",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 521,
+        "error_margin": null,
+        "condition": "AgNPs + AuNPs physical mixture 1:1 v/v, second band (Au contribution)",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 6,
+        "source_figure": "Fig. 2",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "source_page": 6,
+        "source_table": "Table 2",
+        "row_data": {
+          "System": "Ag/AuNPs",
+          "DLS_nm": "9.4±2.8",
+          "TEM_nm": "9.7±3.2",
+          "UV-visible_nm": "~7",
+          "XRD_nm": "10.3±4.5"
+        }
+      },
+      {
+        "source_page": 6,
+        "source_table": "Table 2",
+        "row_data": {
+          "System": "AuNPs",
+          "DLS_nm": "29.3±8.6",
+          "TEM_nm": "28.5±2.0",
+          "UV-visible_nm": "27.4±2.0",
+          "XRD_nm": "22.5±9.9"
+        }
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 463,
+        "condition": "Ag/AuNPs λ_max",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 521,
+        "condition": "AuNPs λ_max",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 470,
+        "condition": "5-10 nm Ag/Au alloy NPs reported λ_max, nominal 1:1 composition",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 27.4,
+        "error_margin": 2.0,
+        "condition": "AuNPs, nominal 1:1 composition, mean particle size from Khlebtsov empirical equation",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 28.5,
+        "error_margin": 2.0,
+        "condition": "AuNPs by TEM imaging",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": 2,
+        "condition": "AuNPs λ_max from text (nominal 1:1, ~27.4±2.0 nm)",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 406,
+        "error_margin": 2,
+        "condition": "Ag/AuNPs colloidal λ_max",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.4,
+        "error_margin": 2.8,
+        "condition": "Ag/AuNPs by DLS, hydrodynamic diameter",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.7,
+        "error_margin": 3.2,
+        "condition": "Ag/AuNPs by TEM",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 29.3,
+        "error_margin": 8.6,
+        "condition": "AuNPs by DLS, hydrodynamic diameter",
+        "confidence": "high",
+        "source_page": 6,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 462,
+        "error_margin": 1,
+        "condition": "Ag/AuNPs, 6 repetitions averaged",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 3A",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": 2,
+        "condition": "AuNPs, 6 repetitions averaged",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 3B",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "other",
+        "value": 38.3,
+        "error_margin": null,
+        "condition": "XRD peak (111) plane, AuNPs and Ag/AuNPs",
+        "units": "degrees 2θ",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 4",
+        "source_figure_type": "XRD"
+      },
+      {
+        "parameter": "other",
+        "value": 44.5,
+        "error_margin": null,
+        "condition": "XRD peak (200) plane, AuNPs and Ag/AuNPs",
+        "units": "degrees 2θ",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 4",
+        "source_figure_type": "XRD"
+      },
+      {
+        "parameter": "other",
+        "value": 64.8,
+        "error_margin": null,
+        "condition": "XRD peak (220) plane, AuNPs and Ag/AuNPs",
+        "units": "degrees 2θ",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 4",
+        "source_figure_type": "XRD"
+      },
+      {
+        "parameter": "other",
+        "value": 77.8,
+        "error_margin": null,
+        "condition": "XRD peak (311) plane, AuNPs and Ag/AuNPs",
+        "units": "degrees 2θ",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 4",
+        "source_figure_type": "XRD"
+      },
+      {
+        "parameter": "other",
+        "value": 81.8,
+        "error_margin": null,
+        "condition": "XRD peak (222) plane, AuNPs and Ag/AuNPs",
+        "units": "degrees 2θ",
+        "confidence": "high",
+        "source_page": 7,
+        "source_figure": "Fig. 4",
+        "source_figure_type": "XRD"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 462,
+        "error_margin": 1,
+        "condition": "Ag/AuNPs, λ_max from UV-Vis",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": 2,
+        "condition": "AuNPs, λ_max from UV-Vis",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 1,
+        "error_margin": null,
+        "condition": "Δλ_max red shift for AuNPs over 50 days, units: nm",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 3,
+        "error_margin": null,
+        "condition": "Δλ_max red shift for Ag/AuNPs over 50 days, units: nm",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": -0.3,
+        "error_margin": null,
+        "condition": "ΔAbs at λ_max for AuNPs over 50 days",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": -0.02,
+        "error_margin": null,
+        "condition": "ΔAbs at λ_max for Ag/AuNPs over 50 days",
+        "confidence": "high",
+        "source_page": 7,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 29.3,
+        "error_margin": 8.6,
+        "condition": "AuNPs, DLS number-based, 25°C",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 8,
+        "source_figure": "Fig. 5A",
+        "source_figure_type": "DLS"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.4,
+        "error_margin": 2.8,
+        "condition": "Ag/AuNPs (AgAuNPs), DLS number-based, 25°C",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 8,
+        "source_figure": "Fig. 5A",
+        "source_figure_type": "DLS"
+      },
+      {
+        "parameter": "zeta_mv",
+        "value": -20,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, pH=6.8, 25°C",
+        "units": "mV",
+        "confidence": "medium",
+        "source_page": 8,
+        "source_figure": "Fig. 5B",
+        "source_figure_type": "zeta_potential"
+      },
+      {
+        "parameter": "zeta_mv",
+        "value": -40,
+        "error_margin": 10,
+        "condition": "AuNPs, pH=7.8, 25°C",
+        "units": "mV",
+        "confidence": "medium",
+        "source_page": 8,
+        "source_figure": "Fig. 5B",
+        "source_figure_type": "zeta_potential"
+      },
+      {
+        "source_page": 8,
+        "source_table": "Table 3",
+        "row_data": {
+          "System": "Ag/AuNPs",
+          "Experimental (a/Å)": "4.065±0.008",
+          "Reported values for a/Å": "4.0562",
+          "Experimental (L/nm)": "10.3±4.5"
+        }
+      },
+      {
+        "source_page": 8,
+        "source_table": "Table 3",
+        "row_data": {
+          "System": "AuNPs",
+          "Experimental (a/Å)": "4.075±0.002",
+          "Reported values for a/Å": "4.0762",
+          "Experimental (L/nm)": "23.5±10.3"
+        }
+      },
+      {
+        "parameter": "size_nm",
+        "value": 29.3,
+        "error_margin": 8.6,
+        "condition": "AuNPs, hydrodynamic diameter by DLS",
+        "confidence": "high",
+        "source_page": 8,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.4,
+        "error_margin": 2.8,
+        "condition": "Ag/Au alloy NPs, hydrodynamic diameter by DLS",
+        "confidence": "high",
+        "source_page": 8,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 28.5,
+        "error_margin": 2.0,
+        "condition": "AuNPs, TEM mean diameter Dmean ± SD, RSD 7.0%",
+        "confidence": "high",
+        "source_page": 8,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.7,
+        "error_margin": 3.2,
+        "condition": "Ag/AuNPs, TEM mean diameter Dmean ± SD, RSD 32.1%",
+        "confidence": "high",
+        "source_page": 8,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 30,
+        "condition": "Critical zeta potential threshold for colloidal stability (±30 mV)",
+        "confidence": "high",
+        "source_page": 8,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "Ag/AuNPs STEM image with 50 nm scale bar, inset with 5 nm scale bar",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 9,
+        "source_figure": "Fig. 6A - STEM image",
+        "source_figure_type": "TEM"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.7,
+        "error_margin": 3.2,
+        "condition": "Ag/AuNPs, Dmean, SD=3.2 nm, Counts=125",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 9,
+        "source_figure": "Fig. 6A - histogram",
+        "source_figure_type": "size_distribution"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "AuNPs STEM image with 50 nm scale bar, HRTEM inset with 10 nm scale bar showing twin planes",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 9,
+        "source_figure": "Fig. 6B - STEM image",
+        "source_figure_type": "TEM"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 28.5,
+        "error_margin": 2.0,
+        "condition": "AuNPs, Dmean, SD=2.0 nm, Counts=125",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 9,
+        "source_figure": "Fig. 6B - histogram",
+        "source_figure_type": "size_distribution"
+      },
+      {
+        "parameter": "ag_at_pct",
+        "value": 44.97,
+        "error_margin": 3.87,
+        "condition": "Ag/AuNPs composition from EDX, Ag:Au atomic ratio=0.818",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "au_at_pct",
+        "value": 55.03,
+        "error_margin": 3.87,
+        "condition": "Ag/AuNPs composition from EDX, Ag:Au atomic ratio=0.818",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 95.8,
+        "error_margin": null,
+        "condition": "AuNPs molar concentration from ICP-MS, μg/mL",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 17.0,
+        "error_margin": null,
+        "condition": "Ag/AuNPs Ag concentration from ICP-MS, μg/mL",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 35.1,
+        "error_margin": null,
+        "condition": "Ag/AuNPs Au concentration from ICP-MS, μg/mL, Ag:Au atomic ratio=1.13",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "Antibacterial assays on MRSA and MDR E. coli, NP concentrations between 1 and 20 μg/mL for AuNPs and Ag/AuNPs",
+        "confidence": "high",
+        "source_page": 9,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 700000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 0 μg/mL, ~700 min, max growth",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 650000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 1 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 550000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 5 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 500000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 10 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 600000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 15 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 500000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, AuNPs 20 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7A",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 18000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 0 μg/mL, ~700 min, max growth",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 16000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 1 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 14000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 5 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 12000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 10 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 10000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 15 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 8000000.0,
+        "error_margin": null,
+        "condition": "MRSA, AuNPs 20 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7B",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 700000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 0 μg/mL, ~700 min, max growth",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 600000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 1 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 400000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 5 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 350000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 10 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 250000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 15 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 200000000.0,
+        "error_margin": null,
+        "condition": "MDR E. coli, Ag/AuNPs 20 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7C",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 14000000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 0 μg/mL, ~700 min, max growth",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 12000000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 1 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 11000000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 5 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 8000000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 10 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 5500000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 15 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 4000000.0,
+        "error_margin": null,
+        "condition": "MRSA, Ag/AuNPs 20 μg/mL, ~700 min",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 10,
+        "source_figure": "Fig. 7D",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "other",
+        "value": 1000000.0,
+        "condition": "Initial bacterial suspension concentration (10^6 CFU/mL) for growth experiments, 24 hours",
+        "confidence": "high",
+        "source_page": 10,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": 750000000.0,
+        "error_margin": 150000000.0,
+        "condition": "AuNPs, 0 μg/mL, MDR E. coli, 8h (control)",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 700000000.0,
+        "error_margin": 100000000.0,
+        "condition": "AuNPs, 1 μg/mL, MDR E. coli, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 650000000.0,
+        "error_margin": 150000000.0,
+        "condition": "AuNPs, 5 μg/mL, MDR E. coli, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 400000000.0,
+        "error_margin": 50000000.0,
+        "condition": "AuNPs, 10 μg/mL, MDR E. coli, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 350000000.0,
+        "error_margin": 50000000.0,
+        "condition": "AuNPs, 15 μg/mL, MDR E. coli, 8h, **p<0.05",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 400000000.0,
+        "error_margin": 50000000.0,
+        "condition": "AuNPs, 20 μg/mL, MDR E. coli, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 16500000.0,
+        "error_margin": 2000000.0,
+        "condition": "AuNPs, 0 μg/mL, MRSA, 8h (control)",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 17000000.0,
+        "error_margin": 2000000.0,
+        "condition": "AuNPs, 1 μg/mL, MRSA, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 16500000.0,
+        "error_margin": 1500000.0,
+        "condition": "AuNPs, 5 μg/mL, MRSA, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 15000000.0,
+        "error_margin": 2500000.0,
+        "condition": "AuNPs, 10 μg/mL, MRSA, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 14000000.0,
+        "error_margin": 2000000.0,
+        "condition": "AuNPs, 15 μg/mL, MRSA, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 12000000.0,
+        "error_margin": 1500000.0,
+        "condition": "AuNPs, 20 μg/mL, MRSA, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 950000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 0 μg/mL, MDR E. coli, 8h (control)",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 500000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 1 μg/mL, MDR E. coli, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 320000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 5 μg/mL, MDR E. coli, 8h, **p<0.05",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 300000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 10 μg/mL, MDR E. coli, 8h, **p<0.05",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 150000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 15 μg/mL, MDR E. coli, 8h, ***p<0.0005",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 180000000.0,
+        "error_margin": 50000000.0,
+        "condition": "Ag/AuNPs, 20 μg/mL, MDR E. coli, 8h, **p<0.05",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9C",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 21000000.0,
+        "error_margin": 2000000.0,
+        "condition": "Ag/AuNPs, 0 μg/mL, MRSA, 8h (control)",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 20000000.0,
+        "error_margin": 2000000.0,
+        "condition": "Ag/AuNPs, 1 μg/mL, MRSA, 8h",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 17000000.0,
+        "error_margin": 1500000.0,
+        "condition": "Ag/AuNPs, 5 μg/mL, MRSA, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 10500000.0,
+        "error_margin": 1000000.0,
+        "condition": "Ag/AuNPs, 10 μg/mL, MRSA, 8h, ***p<0.0005",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 12000000.0,
+        "error_margin": 1500000.0,
+        "condition": "Ag/AuNPs, 15 μg/mL, MRSA, 8h, *p<0.1",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "other",
+        "value": 8000000.0,
+        "error_margin": 1000000.0,
+        "condition": "Ag/AuNPs, 20 μg/mL, MRSA, 8h, ***p<0.0005",
+        "units": "CFU/mL",
+        "confidence": "medium",
+        "source_page": 12,
+        "source_figure": "Fig. 9D",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "mic_ug_ml",
+        "value": 10,
+        "condition": "AuNPs antibacterial effect on MDR E. coli observed at concentrations 10-20 μg/mL (from text)",
+        "confidence": "medium",
+        "source_page": 12,
+        "source": "text"
+      },
+      {
+        "parameter": "mic_ug_ml",
+        "value": 1,
+        "condition": "Ag/AuNPs significant inhibition of MDR E. coli at concentrations 1-20 μg/mL, >50% inhibition at low concentrations (from text)",
+        "confidence": "medium",
+        "source_page": 12,
+        "source": "text"
+      },
+      {
+        "parameter": "mic_ug_ml",
+        "value": 10,
+        "condition": "Ag/AuNPs antimicrobial effect on MRSA at concentrations 10-20 μg/mL (from text)",
+        "confidence": "medium",
+        "source_page": 12,
+        "source": "text"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "MDR E. coli treated with AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 13,
+        "source_figure": "Figure 10A",
+        "source_figure_type": "SEM"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "MDR E. coli treated with Ag/AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 13,
+        "source_figure": "Figure 10B",
+        "source_figure_type": "SEM"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "MRSA treated with AuNPs, 8 hours, scale bar 1.00 μm, 35.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 13,
+        "source_figure": "Figure 10C",
+        "source_figure_type": "SEM"
+      },
+      {
+        "parameter": "other",
+        "value": null,
+        "error_margin": null,
+        "condition": "MRSA treated with Ag/AuNPs, 8 hours, scale bar 1.00 μm, 45.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 13,
+        "source_figure": "Figure 10D",
+        "source_figure_type": "SEM"
+      },
+      {
+        "source_page": 13,
+        "source_table": "Table 4",
+        "row_data": {
+          "System": "AuNPs",
+          "MDR_E_coli_IC50_ug_ml": "7.02±1.31",
+          "MRSA_IC50_ug_ml": "12.29±3.77"
+        }
+      },
+      {
+        "source_page": 13,
+        "source_table": "Table 4",
+        "row_data": {
+          "System": "Ag/AuNPs",
+          "MDR_E_coli_IC50_ug_ml": "4.92±0.81",
+          "MRSA_IC50_ug_ml": "6.95±1.70"
+        }
+      },
+      {
+        "parameter": "ic50_ug_ml",
+        "value": 7.02,
+        "error_margin": 1.31,
+        "condition": "AuNPs against MDR E. coli",
+        "confidence": "high",
+        "source_page": 13,
+        "source": "text"
+      },
+      {
+        "parameter": "ic50_ug_ml",
+        "value": 12.29,
+        "error_margin": 3.77,
+        "condition": "AuNPs against MRSA",
+        "confidence": "high",
+        "source_page": 13,
+        "source": "text"
+      },
+      {
+        "parameter": "ic50_ug_ml",
+        "value": 4.92,
+        "error_margin": 0.81,
+        "condition": "Ag/AuNPs against MDR E. coli",
+        "confidence": "high",
+        "source_page": 13,
+        "source": "text"
+      },
+      {
+        "parameter": "ic50_ug_ml",
+        "value": 6.95,
+        "error_margin": 1.7,
+        "condition": "Ag/AuNPs against MRSA",
+        "confidence": "high",
+        "source_page": 13,
+        "source": "text"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "AuNPs, 0 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "AuNPs, 0 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 10,
+        "condition": "AuNPs, 1 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 15,
+        "condition": "AuNPs, 1 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 88,
+        "error_margin": 10,
+        "condition": "AuNPs, 5 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 80,
+        "error_margin": 15,
+        "condition": "AuNPs, 5 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 10,
+        "condition": "AuNPs, 10 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 78,
+        "error_margin": 12,
+        "condition": "AuNPs, 10 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 10,
+        "condition": "AuNPs, 15 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 78,
+        "error_margin": 15,
+        "condition": "AuNPs, 15 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 10,
+        "condition": "AuNPs, 20 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 75,
+        "error_margin": 15,
+        "condition": "AuNPs, 20 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 0 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 0 μg/mL, HDF, 72h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 1 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 80,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 1 μg/mL, HDF, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 88,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 5 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 75,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 5 μg/mL, HDF, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 10 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 60,
+        "error_margin": 15,
+        "condition": "Ag/AuNPs, 10 μg/mL, HDF, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 15 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 80,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 15 μg/mL, HDF, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 82,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 20 μg/mL, HDF, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 72,
+        "error_margin": 10,
+        "condition": "Ag/AuNPs, 20 μg/mL, HDF, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 11B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "AuNPs, 0 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "AuNPs, 0 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 95,
+        "error_margin": 10,
+        "condition": "AuNPs, 1 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 95,
+        "error_margin": 15,
+        "condition": "AuNPs, 1 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 95,
+        "error_margin": 10,
+        "condition": "AuNPs, 5 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 12,
+        "condition": "AuNPs, 5 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 10,
+        "condition": "AuNPs, 10 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 15,
+        "condition": "AuNPs, 10 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 88,
+        "error_margin": 10,
+        "condition": "AuNPs, 15 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 85,
+        "error_margin": 12,
+        "condition": "AuNPs, 15 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 88,
+        "error_margin": 10,
+        "condition": "AuNPs, 20 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 82,
+        "error_margin": 15,
+        "condition": "AuNPs, 20 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12A",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 0 μg/mL, melanoma, 24h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 100,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 0 μg/mL, melanoma, 72h",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 80,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 1 μg/mL, melanoma, 24h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 20,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 1 μg/mL, melanoma, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 78,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 5 μg/mL, melanoma, 24h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 15,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 5 μg/mL, melanoma, 72h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 65,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 10 μg/mL, melanoma, 24h (*p<0.01)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 12,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 10 μg/mL, melanoma, 72h (**p<0.005)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 60,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 15 μg/mL, melanoma, 24h (**p<0.005)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 10,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 15 μg/mL, melanoma, 72h (**p<0.005)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 55,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 20 μg/mL, melanoma, 24h (**p<0.005)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 10,
+        "error_margin": 5,
+        "condition": "Ag/AuNPs, 20 μg/mL, melanoma, 72h (**p<0.005)",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 90,
+        "error_margin": 8,
+        "condition": "Ag/AuNPs, 0 μg/mL (control), melanoma, 24h",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 14,
+        "source_figure": "Fig. 12B",
+        "source_figure_type": "bar_chart"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": null,
+        "condition": "AuNPs 1-20 μg/mL, HDF cells, no significant cytotoxicity found",
+        "confidence": "high",
+        "source_page": 14,
+        "source": "text"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": null,
+        "condition": "Ag/AuNPs showed higher cytotoxic effect in HDF compared to AuNPs, especially at 72h (day 3)",
+        "confidence": "high",
+        "source_page": 14,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 28.5,
+        "error_margin": 2.0,
+        "condition": "AuNPs, starch-stabilized, from text conclusion",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 15,
+        "source": "text"
+      },
+      {
+        "parameter": "size_nm",
+        "value": 9.7,
+        "error_margin": 3.2,
+        "condition": "Ag/AuNPs bimetallic, polydispersity degree particle sizes, from text conclusion",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 15,
+        "source": "text"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 50,
+        "condition": "Ag/AuNP bimetallic, cell proliferation inhibition close to 50% for most of the NP concentration range, cancer cells",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 15,
+        "source": "text"
+      },
+      {
+        "parameter": "viabilidad_pct",
+        "value": 60,
+        "condition": "AuNPs monometallic, over 60% of cells grew and proliferated, no significant cytotoxic effect, HDF cells",
+        "units": "%",
+        "confidence": "medium",
+        "source_page": 15,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 406,
+        "error_margin": 2,
+        "condition": "AgNPs, 25 mM AgNO3, 500 μL 1% starch, pH=11, 70°C, 2h, average of 6 repetitions",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 18,
+        "source_figure": "Figure S1",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 1.0,
+        "error_margin": null,
+        "condition": "AgNPs, peak absorbance at λ_max=406 nm, normalized",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S1",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.22,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 0, peak absorbance",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (left panel)",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.2,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 5, peak absorbance",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (left panel)",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.18,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 10, peak absorbance",
+        "units": "a.u.",
+        "confidence": "low",
+        "source_page": 18,
+        "source_figure": "Figure S2A (left panel)",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.1,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 50, peak absorbance",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (left panel)",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 462,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 0",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 463,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 5",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 464,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 10",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 467.5,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 20",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 466,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 25",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 464,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 30",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 464,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Day 50",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.22,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Abs @ λ_max, Day 0",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.3,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Abs @ λ_max, Day 25",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.2,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Abs @ λ_max, Day 30",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.1,
+        "error_margin": null,
+        "condition": "Ag/AuNPs, Abs @ λ_max, Day 50",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 18,
+        "source_figure": "Figure S2A (right panel)",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 406,
+        "error_margin": 2,
+        "condition": "AgNPs, colloidal, 25 mM AgNO3, 500 μL 1% starch, pH=11, 70°C, 2h",
+        "confidence": "high",
+        "source_page": 18,
+        "source": "text"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": null,
+        "condition": "AuNPs, Day 0, peak approximate",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - left",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.45,
+        "error_margin": null,
+        "condition": "AuNPs, Day 0, peak absorbance",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - left",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.1,
+        "error_margin": null,
+        "condition": "AuNPs, Day 50, peak absorbance approximate",
+        "units": "a.u.",
+        "confidence": "low",
+        "source_page": 19,
+        "source_figure": "Figure S2B - left",
+        "source_figure_type": "UV-Vis_spectrum"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": null,
+        "condition": "AuNPs, Day 0",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524,
+        "error_margin": null,
+        "condition": "AuNPs, Day 5",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524.2,
+        "error_margin": null,
+        "condition": "AuNPs, Day 10",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524.5,
+        "error_margin": null,
+        "condition": "AuNPs, Day 20",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524.5,
+        "error_margin": null,
+        "condition": "AuNPs, Day 30",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524.5,
+        "error_margin": null,
+        "condition": "AuNPs, Day 40",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "lspr_nm",
+        "value": 524.5,
+        "error_margin": null,
+        "condition": "AuNPs, Day 50",
+        "units": "nm",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.5,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 0",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.45,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 5",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.42,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 10",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.35,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 20",
+        "units": "a.u.",
+        "confidence": "medium",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.32,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 30",
+        "units": "a.u.",
+        "confidence": "low",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.28,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 40",
+        "units": "a.u.",
+        "confidence": "low",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "absorbance",
+        "value": 0.22,
+        "error_margin": null,
+        "condition": "AuNPs, Abs @ λ_max, Day 50",
+        "units": "a.u.",
+        "confidence": "low",
+        "source_page": 19,
+        "source_figure": "Figure S2B - right",
+        "source_figure_type": "line_plot"
+      },
+      {
+        "parameter": "ag_at_pct",
+        "value": 49.32,
+        "error_margin": null,
+        "condition": "Ag/Au alloy NP, point 1 in STEM image, Ag(K) line",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S3 - EDS spectrum",
+        "source_figure_type": "EDX_spectrum"
+      },
+      {
+        "parameter": "au_at_pct",
+        "value": 50.68,
+        "error_margin": null,
+        "condition": "Ag/Au alloy NP, point 1 in STEM image, Au(L) line",
+        "units": "%",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S3 - EDS spectrum",
+        "source_figure_type": "EDX_spectrum"
+      },
+      {
+        "parameter": "other",
+        "value": 10,
+        "error_margin": null,
+        "condition": "Scale bar in STEM image of Ag/Au alloy NPs",
+        "units": "nm",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S3 - STEM image",
+        "source_figure_type": "TEM"
+      },
+      {
+        "parameter": "other",
+        "value": 1.0,
+        "error_margin": null,
+        "condition": "SEM scale bar, untreated MDR E. coli control, 3.0 kV, 40.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S4A",
+        "source_figure_type": "SEM"
+      },
+      {
+        "parameter": "other",
+        "value": 2.0,
+        "error_margin": null,
+        "condition": "SEM scale bar, untreated MRSA control, 3.0 kV, 22.0k magnification",
+        "units": "μm",
+        "confidence": "high",
+        "source_page": 19,
+        "source_figure": "Figure S4B",
+        "source_figure_type": "SEM"
+      },
+      {
+        "source_page": 19,
+        "source_table": "Figure S3 inset table",
+        "row_data": {
+          "Element": "Ag(K)",
+          "wt%": "34.76",
+          "at%": "49.32"
+        }
+      },
+      {
+        "source_page": 19,
+        "source_table": "Figure S3 inset table",
+        "row_data": {
+          "Element": "Au(L)",
+          "wt%": "65.24",
+          "at%": "50.68"
+        }
+      },
+      {
+        "parameter": "ag_at_pct",
+        "value": 49.32,
+        "condition": "Ag/Au alloy NP from EDS, Ag(K) line",
+        "confidence": "high",
+        "source_page": 19,
+        "source": "text"
+      },
+      {
+        "parameter": "au_at_pct",
+        "value": 50.68,
+        "condition": "Ag/Au alloy NP from EDS, Au(L) line",
+        "confidence": "high",
+        "source_page": 19,
+        "source": "text"
+      }
+    ]
+  }
+}

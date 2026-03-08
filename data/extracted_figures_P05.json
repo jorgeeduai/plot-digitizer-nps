@@ -1,0 +1,1785 @@
+[
+  {
+    "paper_id": "P05",
+    "filename": "P05-005.png",
+    "path": "figures/P05/P05-005.png",
+    "width_px": 1169,
+    "height_px": 732,
+    "aspect_ratio": 1.6,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "Atomic composition x (Au at%)",
+        "unit": "at%"
+      },
+      "y_axis": {
+        "label": "Wavelength at maximum absorbance λ_max",
+        "unit": "nm"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 408,
+          "label": "Ag-NPs (pure Ag)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 424,
+          "label": "Ag/Au-NPs 80:20",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 451,
+          "label": "Ag/Au-NPs 60:40",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 462,
+          "label": "Ag/Au-NPs 50:50",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 474,
+          "label": "Ag/Au-NPs 40:60",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 505,
+          "label": "Ag/Au-NPs 20:80",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": null,
+          "y_value": 525,
+          "label": "Au-NPs (pure Au)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 408,
+          "label": "Ag-NPs (0% Au) from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 10,
+          "y_value": 410,
+          "label": "Ag90Au10 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 424,
+          "label": "Ag80Au20 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 30,
+          "y_value": 438,
+          "label": "Ag70Au30 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 40,
+          "y_value": 451,
+          "label": "Ag60Au40 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 50,
+          "y_value": 462,
+          "label": "Ag50Au50 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 60,
+          "y_value": 474,
+          "label": "Ag40Au60 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 70,
+          "y_value": 482,
+          "label": "Ag30Au70 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 80,
+          "y_value": 505,
+          "label": "Ag20Au80 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        },
+        {
+          "x_value": 90,
+          "y_value": 510,
+          "label": "Ag10Au90 from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 525,
+          "label": "Au-NPs (100% Au) from panel C",
+          "variable_extracted": "lspr_nm",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs",
+        "AuNPs",
+        "Ag90Au10",
+        "Ag80Au20",
+        "Ag70Au30",
+        "Ag60Au40",
+        "Ag50Au50",
+        "Ag40Au60",
+        "Ag30Au70",
+        "Ag20Au80",
+        "Ag10Au90"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure contains three panels: A) photograph of colloidal solutions showing color gradient from yellow (Ag) to red (Au); B) normalized UV-Vis absorbance spectra showing single LSPR peaks shifting from 408 nm (Ag) to 525 nm (Au), indicating alloy formation rather than core-shell; C) plot of LSPR λ_max vs Au atomic composition showing approximately linear relationship. The single LSPR peak per composition confirms bimetallic alloy nanoparticle formation.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3296
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-006.png",
+    "path": "figures/P05/P05-006.png",
+    "width_px": 1254,
+    "height_px": 942,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Wavenumber",
+        "unit": "cm⁻¹"
+      },
+      "y_axis": {
+        "label": "Normalized transmittance",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": 3300,
+          "y_value": null,
+          "label": "Powder starch - O-H stretching band",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 2920,
+          "y_value": null,
+          "label": "Powder starch - C-H stretching band",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 1640,
+          "y_value": null,
+          "label": "Powder starch - O-H bending / bound water",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 1230,
+          "y_value": null,
+          "label": "Powder starch - C-O-C / C-O stretching region (1460-1000 cm⁻¹)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 720,
+          "y_value": null,
+          "label": "Powder starch - fingerprint region (940-500 cm⁻¹)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag/Au-NPs 20:80",
+        "Ag/Au-NPs 40:60",
+        "Ag/Au-NPs 60:40",
+        "Ag/Au-NPs 80:20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is an FTIR spectrum figure showing normalized transmittance vs wavenumber for powder starch and four Ag/Au bimetallic nanoparticle compositions (20:80, 40:60, 60:40, 80:20). The spectra confirm the presence of starch as a capping/reducing agent on the nanoparticles. Key absorption bands are labeled at 3300, 2920, 1640, 1460-1000, and 940-500 cm⁻¹. No target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure.",
+      "extractable": false,
+      "reason_if_not_extractable": "This is an FTIR spectroscopy figure showing transmittance vs wavenumber. It does not contain any of the target quantitative variables (PDI, IC50, cell viability, ROS, MIC, or LSPR). The data represents infrared absorption bands for starch-capped bimetallic nanoparticles."
+    },
+    "tokens_used": 2954
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-007.png",
+    "path": "figures/P05/P05-007.png",
+    "width_px": 832,
+    "height_px": 1202,
+    "aspect_ratio": 0.69,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Multiple panels - A: Diffraction angle 2θ / B: Atomic composition x (Au at%)",
+        "unit": "degree / at%"
+      },
+      "y_axis": {
+        "label": "A: Intensity / B: Lattice parameter a",
+        "unit": "a.u. / Å"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 4.085,
+          "label": "Pure Ag (this work)",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 10,
+          "y_value": 4.082,
+          "label": "Ag90Au10 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 4.079,
+          "label": "Ag80Au20 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 30,
+          "y_value": 4.075,
+          "label": "Ag70Au30 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 40,
+          "y_value": 4.073,
+          "label": "Ag60Au40 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 50,
+          "y_value": 4.065,
+          "label": "Ag50Au50 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 60,
+          "y_value": 4.073,
+          "label": "Ag40Au60 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 70,
+          "y_value": 4.073,
+          "label": "Ag30Au70 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 80,
+          "y_value": 4.077,
+          "label": "Ag20Au80 (this work)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 100,
+          "y_value": 4.079,
+          "label": "Pure Au (this work)",
+          "variable_extracted": "other",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag/Au-NPs 80:20",
+        "Ag/Au-NPs 60:40",
+        "Ag/Au-NPs 40:60",
+        "Ag/Au-NPs 20:80",
+        "Ag100-xAux alloy NPs",
+        "Pure Ag",
+        "Pure Au"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Panel A shows XRD patterns of Ag/Au bimetallic NPs at different compositions showing FCC crystal structure with (111), (200), (220), (311), (222) reflections. Panel B shows lattice parameter vs Au atomic composition, comparing this work with Ristig et al. (2015) and Vegard's law. The lattice parameters show negative deviation from Vegard's law, with a minimum around 50-60 at% Au. None of the target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2950
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-008.png",
+    "path": "figures/P05/P05-008.png",
+    "width_px": 910,
+    "height_px": 1343,
+    "aspect_ratio": 0.68,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure contains STEM/HAADF images of nanoparticles at different magnifications. Panel A shows a chain-like aggregate of nanoparticles (~10 nm individual particles) with a high-resolution image showing lattice fringes. Panel B shows smaller clusters of nanoparticles (~10-15 nm) with a high-resolution single particle image. Panel C shows more dispersed, larger spherical nanoparticles (~10-20 nm) with a high-resolution image showing crystalline lattice fringes. No quantitative chart data is present.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure consists of STEM/HAADF microscopy images of nanoparticles at low and high magnification (panels A, B, C), not a chart with quantitative data."
+    },
+    "tokens_used": 2490
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-009.png",
+    "path": "figures/P05/P05-009.png",
+    "width_px": 1419,
+    "height_px": 1065,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "scatter",
+      "x_axis": {
+        "label": "Nominal ratio (Ag:Au)",
+        "unit": "dimensionless ratio"
+      },
+      "y_axis": {
+        "label": "Experimental ratio (Ag:Au)",
+        "unit": "dimensionless ratio"
+      },
+      "data_points": [
+        {
+          "x_value": 0.25,
+          "y_value": 0.33,
+          "label": "20:80 Ag:Au EDX",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.25,
+          "y_value": 0.27,
+          "label": "20:80 Ag:Au XPS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.25,
+          "y_value": 0.28,
+          "label": "20:80 Ag:Au ICP-MS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.25,
+          "y_value": 0.25,
+          "label": "20:80 Ag:Au Expected",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0.67,
+          "y_value": 0.75,
+          "label": "40:60 Ag:Au EDX",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.67,
+          "y_value": 0.7,
+          "label": "40:60 Ag:Au XPS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.67,
+          "y_value": 0.6,
+          "label": "40:60 Ag:Au ICP-MS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0.67,
+          "y_value": 0.67,
+          "label": "40:60 Ag:Au Expected",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 1.5,
+          "y_value": 2.0,
+          "label": "60:40 Ag:Au EDX",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 1.5,
+          "y_value": 1.55,
+          "label": "60:40 Ag:Au XPS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 1.5,
+          "y_value": 1.3,
+          "label": "60:40 Ag:Au ICP-MS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 1.5,
+          "y_value": 1.5,
+          "label": "60:40 Ag:Au Expected",
+          "variable_extracted": "other",
+          "confidence": "high"
+        },
+        {
+          "x_value": 4.0,
+          "y_value": 4.85,
+          "label": "80:20 Ag:Au EDX",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 4.0,
+          "y_value": 3.8,
+          "label": "80:20 Ag:Au XPS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 4.0,
+          "y_value": 3.4,
+          "label": "80:20 Ag:Au ICP-MS",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 4.0,
+          "y_value": 4.0,
+          "label": "80:20 Ag:Au Expected",
+          "variable_extracted": "other",
+          "confidence": "high"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20",
+        "Ag/Au-NPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure compares nominal vs experimental Ag:Au ratios in bimetallic Ag/Au nanoparticles measured by three analytical techniques (EDX, XPS, ICP-MS) against expected values. EDX consistently overestimates the Ag:Au ratio, while ICP-MS underestimates it. XPS is closest to expected values. None of the target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3347
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-010.png",
+    "path": "figures/P05/P05-010.png",
+    "width_px": 1073,
+    "height_px": 564,
+    "aspect_ratio": 1.9,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [
+        "Ag/Au-NPs 20:80",
+        "Ag/Au-NPs 40:60"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure shows HAADF-STEM images and EDS elemental maps (Au in yellow, Ag in blue) of bimetallic Ag/Au nanoparticles at two compositions (20:80 and 40:60). Scale bars of 10 nm and 25 nm are indicated. The images show the spatial distribution of Au and Ag within the nanoparticles but do not contain quantitative chart data.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure consists of STEM microscopy images and EDS elemental mapping images, not quantitative charts or tables with extractable numerical data."
+    },
+    "tokens_used": 1753
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-011.png",
+    "path": "figures/P05/P05-011.png",
+    "width_px": 1073,
+    "height_px": 563,
+    "aspect_ratio": 1.91,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "Figure shows STEM-HAADF images and EDS elemental mapping (Au in yellow, Ag in blue) of Ag/Au bimetallic nanoparticles at 80:20 ratio. Two nanoparticles are shown at different magnifications (5 nm and 10 nm scale bars). The elemental maps confirm co-localization of Au and Ag within the nanoparticles, indicating alloy or mixed composition rather than core-shell structure.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is a STEM-HAADF microscopy image with EDS elemental mapping, not a chart with quantitative data points"
+    },
+    "tokens_used": 1746
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-012.png",
+    "path": "figures/P05/P05-012.png",
+    "width_px": 952,
+    "height_px": 1360,
+    "aspect_ratio": 0.7,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Binding Energy BE",
+        "unit": "eV"
+      },
+      "y_axis": {
+        "label": "Intensity",
+        "unit": "arbitrary/normalized"
+      },
+      "data_points": [
+        {
+          "x_value": 368.2,
+          "y_value": null,
+          "label": "Ag 3d5/2 peak - Ag/Au-NPs 80:20",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.2,
+          "y_value": null,
+          "label": "Ag 3d3/2 peak - Ag/Au-NPs 80:20",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.2,
+          "y_value": null,
+          "label": "Ag 3d5/2 peak - Ag/Au-NPs 60:40",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.2,
+          "y_value": null,
+          "label": "Ag 3d3/2 peak - Ag/Au-NPs 60:40",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.2,
+          "y_value": null,
+          "label": "Ag 3d5/2 peak - Ag/Au-NPs 40:60",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.2,
+          "y_value": null,
+          "label": "Ag 3d3/2 peak - Ag/Au-NPs 40:60",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 368.2,
+          "y_value": null,
+          "label": "Ag 3d5/2 peak - Ag/Au-NPs 20:80",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 374.2,
+          "y_value": null,
+          "label": "Ag 3d3/2 peak - Ag/Au-NPs 20:80",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag/Au-NPs 80:20",
+        "Ag/Au-NPs 60:40",
+        "Ag/Au-NPs 40:60",
+        "Ag/Au-NPs 20:80"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows XPS (X-ray Photoelectron Spectroscopy) survey spectra (panel A) and high-resolution Ag 3d spectra (panel B) for bimetallic Ag/Au nanoparticles at four different Ag:Au ratios. The spectra show peaks for O 1s, Ag 3d, C 1s, and Au 4f. The Ag 3d5/2 peak appears at approximately 368.2 eV with a dashed reference line. The spin-orbit splitting between Ag 3d5/2 and Ag 3d3/2 is approximately 6.0 eV. None of the target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure.",
+      "extractable": false,
+      "reason_if_not_extractable": "This is an XPS (X-ray Photoelectron Spectroscopy) characterization figure showing binding energy spectra. It does not contain any of the target bioactivity variables (PDI, IC50, cell viability, ROS, MIC, or LSPR)."
+    },
+    "tokens_used": 3246
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-013.png",
+    "path": "figures/P05/P05-013.png",
+    "width_px": 995,
+    "height_px": 798,
+    "aspect_ratio": 1.25,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Ag/Au-NPs concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Bacterial proliferation",
+        "unit": "CFU/mL"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 140000000,
+          "label": "Ag/Au-NPs 20:80, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 90000000,
+          "label": "Ag/Au-NPs 20:80, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 78000000,
+          "label": "Ag/Au-NPs 20:80, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 76000000,
+          "label": "Ag/Au-NPs 20:80, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 66000000,
+          "label": "Ag/Au-NPs 20:80, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 145000000,
+          "label": "Ag/Au-NPs 40:60, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 70000000,
+          "label": "Ag/Au-NPs 40:60, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 57000000,
+          "label": "Ag/Au-NPs 40:60, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 48000000,
+          "label": "Ag/Au-NPs 40:60, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 40000000,
+          "label": "Ag/Au-NPs 40:60, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 155000000,
+          "label": "Ag/Au-NPs 60:40, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 60000000,
+          "label": "Ag/Au-NPs 60:40, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 47000000,
+          "label": "Ag/Au-NPs 60:40, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 28000000,
+          "label": "Ag/Au-NPs 60:40, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 18000000,
+          "label": "Ag/Au-NPs 60:40, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 135000000,
+          "label": "Ag/Au-NPs 80:20, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 45000000,
+          "label": "Ag/Au-NPs 80:20, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 20000000,
+          "label": "Ag/Au-NPs 80:20, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 8000000,
+          "label": "Ag/Au-NPs 80:20, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3000000,
+          "label": "Ag/Au-NPs 80:20, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "MDR-EC (multidrug-resistant E. coli)"
+      ],
+      "notes": "Figure shows dose-dependent antibacterial activity of bimetallic Ag/Au nanoparticles at different Ag:Au ratios against MDR E. coli. Higher Ag content (80:20) shows strongest antibacterial effect. Double asterisks (**) indicate statistical significance vs control. MIC values are not directly stated but can be inferred: all compositions show significant inhibition starting at 5 µg/mL but none achieve complete eradication except possibly 80:20 at 20 µg/mL.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3203
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-014.png",
+    "path": "figures/P05/P05-014.png",
+    "width_px": 995,
+    "height_px": 777,
+    "aspect_ratio": 1.28,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "dose_response",
+      "x_axis": {
+        "label": "Ag/Au-NPs concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Bacterial proliferation",
+        "unit": "CFU/mL"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 10000000,
+          "label": "Ag/Au-NPs 20:80, 0 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 8500000,
+          "label": "Ag/Au-NPs 20:80, 5 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 7000000,
+          "label": "Ag/Au-NPs 20:80, 10 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 6000000,
+          "label": "Ag/Au-NPs 20:80, 15 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3000000,
+          "label": "Ag/Au-NPs 20:80, 20 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 11000000,
+          "label": "Ag/Au-NPs 40:60, 0 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 8000000,
+          "label": "Ag/Au-NPs 40:60, 5 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 6000000,
+          "label": "Ag/Au-NPs 40:60, 10 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 5200000,
+          "label": "Ag/Au-NPs 40:60, 15 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3500000,
+          "label": "Ag/Au-NPs 40:60, 20 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 10500000,
+          "label": "Ag/Au-NPs 60:40, 0 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 7000000,
+          "label": "Ag/Au-NPs 60:40, 5 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 4800000,
+          "label": "Ag/Au-NPs 60:40, 10 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 1800000,
+          "label": "Ag/Au-NPs 60:40, 15 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 1000000,
+          "label": "Ag/Au-NPs 60:40, 20 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 9500000,
+          "label": "Ag/Au-NPs 80:20, 0 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 7500000,
+          "label": "Ag/Au-NPs 80:20, 5 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 3200000,
+          "label": "Ag/Au-NPs 80:20, 10 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 500000,
+          "label": "Ag/Au-NPs 80:20, 15 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 100000,
+          "label": "Ag/Au-NPs 80:20, 20 µg/mL, MRSA",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "MRSA"
+      ],
+      "notes": "All data points show statistically significant reduction (** marked) compared to untreated control. Higher Ag content shows greater antibacterial efficacy. Ag/Au-NPs 80:20 at 20 µg/mL nearly eliminates MRSA proliferation. MIC values cannot be precisely determined from these charts as complete inhibition (zero CFU) is not clearly achieved in all formulations, though Ag/Au 80:20 at 15-20 µg/mL approaches near-complete inhibition.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3226
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-015.png",
+    "path": "figures/P05/P05-015.png",
+    "width_px": 995,
+    "height_px": 798,
+    "aspect_ratio": 1.25,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Ag/Au-NPs concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Bacterial proliferation",
+        "unit": "CFU/mL"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 140000000,
+          "label": "Ag/Au-NPs 20:80, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 90000000,
+          "label": "Ag/Au-NPs 20:80, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 78000000,
+          "label": "Ag/Au-NPs 20:80, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 76000000,
+          "label": "Ag/Au-NPs 20:80, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 66000000,
+          "label": "Ag/Au-NPs 20:80, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 145000000,
+          "label": "Ag/Au-NPs 40:60, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 70000000,
+          "label": "Ag/Au-NPs 40:60, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 57000000,
+          "label": "Ag/Au-NPs 40:60, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 48000000,
+          "label": "Ag/Au-NPs 40:60, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 40000000,
+          "label": "Ag/Au-NPs 40:60, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 155000000,
+          "label": "Ag/Au-NPs 60:40, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 60000000,
+          "label": "Ag/Au-NPs 60:40, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 46000000,
+          "label": "Ag/Au-NPs 60:40, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 28000000,
+          "label": "Ag/Au-NPs 60:40, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 18000000,
+          "label": "Ag/Au-NPs 60:40, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 135000000,
+          "label": "Ag/Au-NPs 80:20, 0 µg/mL control",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 45000000,
+          "label": "Ag/Au-NPs 80:20, 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 22000000,
+          "label": "Ag/Au-NPs 80:20, 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 8000000,
+          "label": "Ag/Au-NPs 80:20, 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3000000,
+          "label": "Ag/Au-NPs 80:20, 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "MDR-E. coli"
+      ],
+      "notes": "Figure shows dose-dependent antibacterial activity of bimetallic Ag/Au nanoparticles at four different Ag:Au ratios against multidrug-resistant E. coli (MDR-EC). Higher Ag content (80:20) shows strongest antibacterial effect. All treated groups marked with ** indicating statistical significance (p<0.01). MIC values are not explicitly stated but Ag/Au-NPs 80:20 at 20 µg/mL shows near-complete inhibition (~98% reduction).",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3195
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-016.png",
+    "path": "figures/P05/P05-016.png",
+    "width_px": 995,
+    "height_px": 777,
+    "aspect_ratio": 1.28,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Ag/Au-NPs concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Bacterial proliferation",
+        "unit": "CFU/mL"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 10000000,
+          "label": "Ag/Au-NPs 20:80 - 0 µg/mL (control)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 8500000,
+          "label": "Ag/Au-NPs 20:80 - 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 7000000,
+          "label": "Ag/Au-NPs 20:80 - 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 6200000,
+          "label": "Ag/Au-NPs 20:80 - 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3000000,
+          "label": "Ag/Au-NPs 20:80 - 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 11000000,
+          "label": "Ag/Au-NPs 40:60 - 0 µg/mL (control)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 8000000,
+          "label": "Ag/Au-NPs 40:60 - 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 6000000,
+          "label": "Ag/Au-NPs 40:60 - 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 5200000,
+          "label": "Ag/Au-NPs 40:60 - 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 3500000,
+          "label": "Ag/Au-NPs 40:60 - 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 10500000,
+          "label": "Ag/Au-NPs 60:40 - 0 µg/mL (control)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 7000000,
+          "label": "Ag/Au-NPs 60:40 - 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 4800000,
+          "label": "Ag/Au-NPs 60:40 - 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 1800000,
+          "label": "Ag/Au-NPs 60:40 - 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 1200000,
+          "label": "Ag/Au-NPs 60:40 - 20 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 0,
+          "y_value": 9500000,
+          "label": "Ag/Au-NPs 80:20 - 0 µg/mL (control)",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 7500000,
+          "label": "Ag/Au-NPs 80:20 - 5 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 3200000,
+          "label": "Ag/Au-NPs 80:20 - 10 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 500000,
+          "label": "Ag/Au-NPs 80:20 - 15 µg/mL",
+          "variable_extracted": "other",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 100000,
+          "label": "Ag/Au-NPs 80:20 - 20 µg/mL",
+          "variable_extracted": "mic_ug_ml",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "MRSA"
+      ],
+      "notes": "Dose-response antibacterial data for bimetallic Ag/Au nanoparticles against MRSA at varying Ag:Au ratios. Higher Ag content (80:20) shows strongest antibacterial activity with near-complete inhibition at 20 µg/mL. MIC for Ag/Au-NPs 80:20 appears to be approximately 15-20 µg/mL based on near-zero CFU. All data points marked with ** indicate statistical significance. Exact MIC values cannot be precisely determined from colony count data alone without defined threshold.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 3191
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-017.png",
+    "path": "figures/P05/P05-017.png",
+    "width_px": 951,
+    "height_px": 757,
+    "aspect_ratio": 1.26,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"Ag/Au-NPs concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Cell proliferation\", \"unit\": \"cells/mL\"},\n  \"data_points\": [\n    {\"x_value\": 0, \"y_value\": 40000, \"label\": \"Ag/Au-NPs 20:80, 24h, 0 µg/mL (control)\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 5, \"y_value\": 36000, \"label\": \"Ag/Au-NPs 20:80, 24h, 5 µg/mL\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 10, \"y_value\": 35000, \"label",
+      "extractable": false
+    },
+    "tokens_used": 3619
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-018.png",
+    "path": "figures/P05/P05-018.png",
+    "width_px": 951,
+    "height_px": 760,
+    "aspect_ratio": 1.25,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"Ag/Au-NPs concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Cell proliferation\", \"unit\": \"cells/mL\"},\n  \"data_points\": [\n    {\"x_value\": 0, \"y_value\": 55000, \"label\": \"Ag/Au-NPs 20:80, 24h, control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 0, \"y_value\": 70000, \"label\": \"Ag/Au-NPs 20:80, 72h, control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 5, \"y_value\": 40000, \"label\": \"Ag/Au-N",
+      "extractable": false
+    },
+    "tokens_used": 3619
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-019.png",
+    "path": "figures/P05/P05-019.png",
+    "width_px": 745,
+    "height_px": 650,
+    "aspect_ratio": 1.15,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Nanoparticle concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Fluorescence intensity (% of control)",
+        "unit": "%"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 20:80, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 40:60, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 60:40, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 80:20, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 5,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 20:80, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 5,
+          "y_value": 103,
+          "label": "Ag/Au-NPs 40:60, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 108,
+          "label": "Ag/Au-NPs 60:40, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 80:20, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 105,
+          "label": "Ag/Au-NPs 20:80, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 40:60, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 113,
+          "label": "Ag/Au-NPs 60:40, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 117,
+          "label": "Ag/Au-NPs 80:20, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 20:80, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 115,
+          "label": "Ag/Au-NPs 40:60, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 120,
+          "label": "Ag/Au-NPs 60:40, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 130,
+          "label": "Ag/Au-NPs 80:20, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 120,
+          "label": "Ag/Au-NPs 20:80, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 125,
+          "label": "Ag/Au-NPs 40:60, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 137,
+          "label": "Ag/Au-NPs 60:40, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 143,
+          "label": "Ag/Au-NPs 80:20, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "ROS analysis of bimetallic Ag/Au nanoparticles at different ratios. Higher Ag content leads to greater ROS generation. All conditions marked with ** indicate statistical significance. ROS levels increase with both nanoparticle concentration and silver content in the bimetallic system.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2748
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-020.png",
+    "path": "figures/P05/P05-020.png",
+    "width_px": 951,
+    "height_px": 760,
+    "aspect_ratio": 1.25,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "error": "JSON parse failed",
+      "raw": "{\n  \"chart_type\": \"bar\",\n  \"x_axis\": {\"label\": \"Ag/Au-NPs concentration\", \"unit\": \"µg/mL\"},\n  \"y_axis\": {\"label\": \"Cell proliferation\", \"unit\": \"cells/mL\"},\n  \"data_points\": [\n    {\"x_value\": 0, \"y_value\": 55000, \"label\": \"Ag/Au-NPs 20:80, 24h, control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 0, \"y_value\": 70000, \"label\": \"Ag/Au-NPs 20:80, 72h, control\", \"variable_extracted\": \"other\", \"confidence\": \"medium\"},\n    {\"x_value\": 5, \"y_value\": 40000, \"label\": \"Ag/Au-N",
+      "extractable": false
+    },
+    "tokens_used": 3619
+  },
+  {
+    "paper_id": "P05",
+    "filename": "P05-021.png",
+    "path": "figures/P05/P05-021.png",
+    "width_px": 745,
+    "height_px": 650,
+    "aspect_ratio": 1.15,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "Nanoparticle concentration",
+        "unit": "µg/mL"
+      },
+      "y_axis": {
+        "label": "Fluorescence intensity (% of control)",
+        "unit": "%"
+      },
+      "data_points": [
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 20:80, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 40:60, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 60:40, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 0,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 80:20, 0 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 5,
+          "y_value": 100,
+          "label": "Ag/Au-NPs 20:80, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "high"
+        },
+        {
+          "x_value": 5,
+          "y_value": 103,
+          "label": "Ag/Au-NPs 40:60, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 108,
+          "label": "Ag/Au-NPs 60:40, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 5,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 80:20, 5 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 105,
+          "label": "Ag/Au-NPs 20:80, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 40:60, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 113,
+          "label": "Ag/Au-NPs 60:40, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 10,
+          "y_value": 117,
+          "label": "Ag/Au-NPs 80:20, 10 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 110,
+          "label": "Ag/Au-NPs 20:80, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 115,
+          "label": "Ag/Au-NPs 40:60, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 120,
+          "label": "Ag/Au-NPs 60:40, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 15,
+          "y_value": 130,
+          "label": "Ag/Au-NPs 80:20, 15 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 120,
+          "label": "Ag/Au-NPs 20:80, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 125,
+          "label": "Ag/Au-NPs 40:60, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 137,
+          "label": "Ag/Au-NPs 60:40, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 20,
+          "y_value": 143,
+          "label": "Ag/Au-NPs 80:20, 20 µg/mL",
+          "variable_extracted": "ros_pct",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "Ag20Au80",
+        "Ag40Au60",
+        "Ag60Au40",
+        "Ag80Au20"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "ROS analysis of bimetallic Ag/Au nanoparticles at different Ag:Au ratios. Higher Ag content leads to greater ROS generation. All bars at non-zero concentrations are marked with ** indicating statistical significance. ROS levels increase with both nanoparticle concentration and silver content in the bimetallic system.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2759
+  }
+]

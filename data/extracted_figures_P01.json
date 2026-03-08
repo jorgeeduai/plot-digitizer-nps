@@ -1,0 +1,2030 @@
+[
+  {
+    "paper_id": "P01",
+    "filename": "P01-004.png",
+    "path": "figures/P01/P01-004.png",
+    "width_px": 888,
+    "height_px": 629,
+    "aspect_ratio": 1.41,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Wavenumber",
+        "unit": "cm⁻¹"
+      },
+      "y_axis": {
+        "label": "Transmittance",
+        "unit": "%"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is an FTIR (Fourier Transform Infrared) spectroscopy figure showing three overlaid spectra (red, green, black). The x-axis appears to run from high wavenumber (left, ~4000 cm⁻¹) to low wavenumber (right, ~400 cm⁻¹). Without axis labels or legend, specific peak positions cannot be reliably extracted. The spectra likely represent nanoparticles, plant extract, and/or precursor materials. The broad absorption around 3000-3500 cm⁻¹ region (black curve) suggests O-H stretching. No target bioactivity variables (PDI, IC50, viability, ROS, MIC, LSPR) are present in this figure.",
+      "extractable": false,
+      "reason_if_not_extractable": "This is an FTIR spectroscopy figure without visible axis labels or numerical scale markings. It does not contain any of the target quantitative variables (PDI, IC50, cell viability, ROS, MIC, or LSPR)."
+    },
+    "tokens_used": 1765
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-005.png",
+    "path": "figures/P01/P01-005.png",
+    "width_px": 837,
+    "height_px": 633,
+    "aspect_ratio": 1.32,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "Wavelength",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "Absorbance/Intensity",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Blue circles curve - peak at shorter wavelength, likely AgNPs or component with LSPR around 400-420 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Green diamonds curve - peak at intermediate wavelength, possibly bimetallic or intermediate composition",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Red squares curve - peak at longer wavelength, likely AuNPs or Au-rich composition with LSPR around 520-540 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Black dashed curve - bimodal peaks, possibly a combined/theoretical spectrum or bimetallic system",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs",
+        "AuNPs",
+        "bimetallic Ag-Au"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This appears to be a UV-Vis absorption spectra plot showing LSPR peaks for different nanoparticle compositions. However, the axis labels and tick values are not visible in the image, making precise wavelength extraction impossible. The figure shows at least 4 curves: blue circles (shortest wavelength peak), green diamonds (intermediate peak), red squares (longest wavelength peak), and a black dashed curve with bimodal character. Without visible axis labels/numbers, quantitative LSPR values cannot be reliably extracted.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick marks, and numerical values are not visible in the image, preventing reliable quantitative data extraction. The plot appears to be UV-Vis spectra but precise wavelength and absorbance values cannot be determined."
+    },
+    "tokens_used": 1987
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-011.png",
+    "path": "figures/P01/P01-011.png",
+    "width_px": 1041,
+    "height_px": 782,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "Wavelength",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "Absorbance",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "UV-Vis absorption spectra of multiple nanoparticle samples showing LSPR peaks near the same wavelength region; peak positions appear clustered but exact wavelength axis labels are not visible",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows overlapping UV-Vis absorption spectra for multiple samples with a prominent LSPR peak and an inset zooming into the peak region. The axis labels and legend are not visible in the image, preventing precise extraction of wavelength values or sample identities. The dashed vertical line likely indicates a reference LSPR wavelength. Multiple colored data series (light blue, orange/red, dark colors, green) are present but cannot be identified without a legend. The spectra show characteristic plasmonic nanoparticle absorption profiles with a single LSPR peak.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick mark values, and legend are not visible in the image, preventing extraction of quantitative LSPR peak wavelength values or identification of nanoparticle compositions."
+    },
+    "tokens_used": 2124
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-012.png",
+    "path": "figures/P01/P01-012.png",
+    "width_px": 1041,
+    "height_px": 784,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "size_distribution",
+      "x_axis": {
+        "label": "Size or 2-theta/wavelength",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "Intensity/Counts",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows multiple overlapping curves (with different colored markers: blue circles, red squares, green diamonds, black triangles, and others) with a sharp peak and a zoomed inset of the peak region. The axes labels and tick values are not visible/readable in the provided image, making it impossible to extract precise quantitative values. The figure appears to be either an XRD diffraction pattern, UV-Vis absorption spectrum, or DLS size distribution with multiple samples compared. Without axis labels or numerical scales, no specific target variables (PDI, IC50, LSPR, etc.) can be reliably extracted.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, and numerical tick marks are not visible/readable in the provided image. Cannot determine what quantities are plotted or extract specific values for any target variables."
+    },
+    "tokens_used": 2035
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-019.png",
+    "path": "figures/P01/P01-019.png",
+    "width_px": 885,
+    "height_px": 641,
+    "aspect_ratio": 1.38,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": "Chemical shift or 2-theta",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "Intensity",
+        "unit": "arbitrary"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows four stacked spectral plots (red, green, black, purple) that appear to be either NMR spectra or XRD diffraction patterns. The x-axis labels are not visible in the image. Without axis labels or numerical scales, no quantitative bioactivity-related data (PDI, IC50, viability, ROS, MIC, LSPR) can be extracted. The spectra show multiple peaks at consistent positions across the different traces, suggesting comparison of different samples or reference patterns.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure appears to be NMR or XRD spectra without visible axis labels or numerical scales. No bioactivity-related quantitative data (IC50, viability, MIC, LSPR, etc.) is present in this spectral characterization figure."
+    },
+    "tokens_used": 1701
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-020.png",
+    "path": "figures/P01/P01-020.png",
+    "width_px": 733,
+    "height_px": 598,
+    "aspect_ratio": 1.23,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (two conditions/groups)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 75,
+          "label": "Green bar - Group 1 (left condition)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 65,
+          "label": "Red bar - Group 2 (right condition)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure lacks visible axis labels, tick mark values, legend, and title. There are two bars (green on left, red on right) with error bars. A solid horizontal line appears near the top and a dashed horizontal line appears at approximately the midpoint of the plot area. Without axis labels or numerical scales, precise quantitative extraction is not possible. The y-values reported are rough estimates based on relative bar heights assuming the solid line represents ~100 and the dashed line represents ~50. Confidence is low due to missing labels and scale information.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure lacks axis labels, numerical scales, legend, and title. Cannot reliably determine what variables are plotted or extract precise quantitative values."
+    },
+    "tokens_used": 1655
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-021.png",
+    "path": "figures/P01/P01-021.png",
+    "width_px": 759,
+    "height_px": 540,
+    "aspect_ratio": 1.41,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "size_distribution",
+      "x_axis": {
+        "label": "Size/Fluorescence intensity",
+        "unit": "arbitrary units"
+      },
+      "y_axis": {
+        "label": "Counts/Frequency",
+        "unit": "arbitrary units"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Green population - smaller size/lower fluorescence peak",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Red population - larger size/higher fluorescence peak",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This appears to be a flow cytometry histogram or DLS size distribution plot with two overlapping populations (green diamonds and red squares). The axes lack visible labels and numerical values, making precise quantitative extraction impossible. The green curve peaks at a lower x-value than the red curve, suggesting either a shift in size, fluorescence intensity, or another measured parameter between two conditions or samples.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels and numerical scale values are not visible in the figure, preventing accurate quantitative data extraction"
+    },
+    "tokens_used": 1583
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-024.png",
+    "path": "figures/P01/P01-024.png",
+    "width_px": 552,
+    "height_px": 553,
+    "aspect_ratio": 1.0,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure is a TEM (transmission electron microscopy) image showing nanoparticles as bright spots on a dark background (likely dark-field or STEM imaging). The inset in the upper left shows a high-resolution TEM (HRTEM) image of a single nanoparticle revealing lattice fringes. A scale bar is visible at the bottom left. No quantitative chart data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is a TEM/STEM microscopy image with an HRTEM inset showing nanoparticle morphology and lattice fringes, not a chart with quantitative data."
+    },
+    "tokens_used": 1319
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-025.png",
+    "path": "figures/P01/P01-025.png",
+    "width_px": 546,
+    "height_px": 546,
+    "aspect_ratio": 1.0,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows a TEM/SEM image of nanoparticles (likely metallic, appearing as roughly spherical particles in a cluster). The inset in the bottom-right corner shows a higher-magnification TEM image of a single nanoparticle or small cluster with red dashed lines indicating crystallographic planes or twin boundaries. Scale bars are visible but not legible. No quantitative chart data is present.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is a TEM/SEM microscopy image of nanoparticles with a high-resolution inset showing crystallographic features, not a chart with quantitative data."
+    },
+    "tokens_used": 1312
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-026.png",
+    "path": "figures/P01/P01-026.png",
+    "width_px": 505,
+    "height_px": 419,
+    "aspect_ratio": 1.21,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "size_distribution",
+      "x_axis": {
+        "label": "Particle size",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "Frequency/Count",
+        "unit": "counts"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Nanoparticle size distribution histogram with log-normal fit curve; peak appears around 20-30 nm range, right-skewed distribution extending to ~80-100 nm",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a particle size distribution histogram (likely from TEM or DLS) with a fitted curve overlay (log-normal or Gaussian). The axis labels and tick values are not readable in the image, preventing precise quantitative extraction. The distribution appears right-skewed with a mode in the lower size range. Without axis labels/values, specific size values and counts cannot be reliably extracted.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels and numerical tick values are not visible/readable in the figure, preventing extraction of quantitative size distribution data points"
+    },
+    "tokens_used": 1280
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-027.png",
+    "path": "figures/P01/P01-027.png",
+    "width_px": 507,
+    "height_px": 419,
+    "aspect_ratio": 1.21,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "size_distribution",
+      "x_axis": {
+        "label": "particle size",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "frequency/count",
+        "unit": "counts"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a particle size distribution histogram with a Gaussian curve overlay. The axis labels and tick marks are not legible in the image, so specific numerical values for particle size bins and frequencies cannot be reliably extracted. The distribution appears roughly normal/Gaussian with a slight right skew. The peak of the distribution appears to be located roughly in the center-left region of the histogram. Without readable axis labels, exact mean size and standard deviation cannot be determined.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels and tick mark values are not legible in this image, preventing reliable extraction of quantitative size distribution data. The figure is a particle size distribution histogram but numerical values cannot be read."
+    },
+    "tokens_used": 1213
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-028.png",
+    "path": "figures/P01/P01-028.png",
+    "width_px": 1080,
+    "height_px": 816,
+    "aspect_ratio": 1.32,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely time or concentration)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely absorbance, growth, or viability)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows multiple sigmoid/growth curves (6 series) with different markers: black squares, red circles, green down-triangles, blue up-triangles, purple diamonds, and gold/orange left-triangles. The curves show a sigmoidal rise from low values to plateaus at different levels. The black squares reach the highest plateau, followed by red circles, then a cluster of green/blue/purple curves at a similar intermediate level, and orange/gold triangles reaching the lowest plateau. Without axis labels, units, or a legend visible in the image, it is not possible to determine the specific variables (e.g., bacterial growth OD600, cell viability, etc.) or extract meaningful quantitative values with confidence. The shape is consistent with bacterial growth curves (OD vs time) or dose-response curves.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, and legend are not visible in the figure, making it impossible to identify the variables or extract quantitative data with any confidence."
+    },
+    "tokens_used": 2181
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-029.png",
+    "path": "figures/P01/P01-029.png",
+    "width_px": 1080,
+    "height_px": 815,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely time, concentration, or wavelength)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely absorbance, cumulative release, or similar)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows multiple line traces with distinct markers (black squares, red circles, blue up-triangles, green down-triangles, purple diamonds, dark yellow/brown left-triangles) representing 6-7 different conditions. All curves show an increasing trend from bottom-left to top-right, with different rates of increase. The axes labels and legends are cropped/not visible, making it impossible to determine the exact variables, units, or extract meaningful quantitative data points. The curves appear to show cumulative/growth-type behavior, possibly drug release kinetics, bacterial growth curves, or UV-Vis absorption spectra. Without axis labels and legend, no target variables (PDI, IC50, viability, ROS, MIC, LSPR) can be reliably extracted.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, and legend are not visible in the cropped figure. Cannot determine what variables are plotted or extract any of the target quantitative values (PDI, IC50, viability, ROS, MIC, LSPR) without knowing what the axes represent."
+    },
+    "tokens_used": 2210
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-030.png",
+    "path": "figures/P01/P01-030.png",
+    "width_px": 1082,
+    "height_px": 816,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely concentration or time)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely absorbance, inhibition, or cumulative response)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows 6 line curves (black squares, red circles, blue triangles up, green triangles down, purple diamonds, gold/dark yellow triangles left) with sigmoidal/saturation-type growth profiles. Without axis labels, legends, or title visible in the image, it is not possible to reliably identify the specific variables being plotted or extract meaningful quantitative values corresponding to the target variables (PDI, IC50, viability, ROS, MIC, LSPR). The curves appear to show dose-response or time-dependent behavior with different series reaching different plateau values. The axis tick labels are also not legible in the provided image, preventing numerical extraction.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, legend, and tick mark values are not legible or visible in the provided image, making it impossible to reliably extract quantitative data or identify which target variables are represented."
+    },
+    "tokens_used": 2164
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-031.png",
+    "path": "figures/P01/P01-031.png",
+    "width_px": 1081,
+    "height_px": 815,
+    "aspect_ratio": 1.33,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely time or concentration)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely absorbance, cumulative release, or growth)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows multiple line curves (6 series: dark gray squares, red circles, blue triangles up, purple diamonds, purple stars/crosses, and dark yellow/gold left-pointing triangles) all displaying a growth/saturation pattern over time or concentration. Without axis labels, tick marks, or a legend visible in the cropped image, it is not possible to definitively determine what variables are plotted or extract reliable quantitative values. The curves could represent bacterial growth kinetics (OD vs time), cumulative drug release profiles, or absorption spectra evolution. All curves start near zero on the left, rise with different rates, and plateau at different levels on the right. The dark gray square series reaches the highest plateau, followed by red circles, blue triangles, purple diamonds/stars, and gold triangles at the lowest plateau.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, tick mark values, and legend are not visible in the cropped image, making it impossible to extract reliable quantitative data or identify the specific variables plotted."
+    },
+    "tokens_used": 2189
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-038.png",
+    "path": "figures/P01/P01-038.png",
+    "width_px": 1057,
+    "height_px": 835,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (possibly concentration or time)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows two line plots (gray with square markers and red with circle markers) both showing a generally decreasing trend from left to right. The axis labels and legends are not visible in this cropped image, making it impossible to determine the specific variables, units, or exact numerical values. The gray line starts high (~85% of y-axis range) and drops steeply before leveling off at ~45-50% of the y-axis range. The red line is relatively flat at ~25-30% of the y-axis range with a slight downward trend. Without axis labels, tick mark values, or a legend, no reliable quantitative data extraction is possible.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick mark values, units, and legend are not visible in this cropped image. Cannot determine what variables are plotted or extract meaningful quantitative values."
+    },
+    "tokens_used": 2110
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-039.png",
+    "path": "figures/P01/P01-039.png",
+    "width_px": 1059,
+    "height_px": 835,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely concentration or parameter index)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (possibly viability, absorbance, or other metric)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows two line plots (red circles and gray/black squares) with approximately 7 data points each. Both lines start at similar high values on the left, decrease sharply, then the red line plateaus at a low value while the gray/black line decreases then increases sharply at the rightmost point. However, axis labels, units, and legend are not visible in the image, making it impossible to reliably extract specific quantitative values or identify what variables are being plotted. Without axis labels and scale markings, precise data extraction cannot be performed with confidence.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, legend, and tick mark values are not visible/readable in the image, preventing reliable quantitative data extraction."
+    },
+    "tokens_used": 2095
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-040.png",
+    "path": "figures/P01/P01-040.png",
+    "width_px": 1056,
+    "height_px": 832,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely concentration or time points)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (values appear in lower range of plot, approximately 0.1-0.3 range)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": null,
+          "label": "Black series - point 1",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": null,
+          "label": "Black series - point 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": null,
+          "label": "Black series - point 3",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": null,
+          "label": "Black series - point 4",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": null,
+          "label": "Black series - point 5",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": null,
+          "label": "Black series - point 6",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 1,
+          "y_value": null,
+          "label": "Red series - point 1",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": null,
+          "label": "Red series - point 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": null,
+          "label": "Red series - point 3",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": null,
+          "label": "Red series - point 4",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": null,
+          "label": "Red series - point 5",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": null,
+          "label": "Red series - point 6",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure has no visible axis labels, legend, or tick mark values. Two line series are present (black squares and red circles) with 6 data points each. The data points cluster in the lower portion of the plot area, suggesting relatively low values. Without axis labels and scale values, precise quantitative extraction is not possible. The pattern of two roughly flat lines with slight variations could be consistent with PDI measurements or similar stability parameters across different conditions, but this cannot be confirmed.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, tick values, and legend are not visible in the cropped figure, making it impossible to extract precise quantitative values or identify the variables being plotted."
+    },
+    "tokens_used": 2766
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-041.png",
+    "path": "figures/P01/P01-041.png",
+    "width_px": 1058,
+    "height_px": 835,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (possibly concentration or time)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows two line plots (one dark/gray with square markers and one red with circle markers) with approximately 6 data points each. The axes labels, units, and legend are not visible in this cropped image, making it impossible to accurately identify what variables are being plotted or extract meaningful quantitative values. The last data point of the gray line has a large error bar. Without axis labels and scales, no reliable data extraction is possible.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, legend, and scale values are not visible in this cropped figure, preventing identification of variables and extraction of quantitative data."
+    },
+    "tokens_used": 2058
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-042.png",
+    "path": "figures/P01/P01-042.png",
+    "width_px": 1058,
+    "height_px": 835,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely concentration or time)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely a measured response)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": 8,
+          "label": "gray/black square series - point 1",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 30,
+          "label": "gray/black square series - point 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 50,
+          "label": "gray/black square series - point 3",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 60,
+          "label": "gray/black square series - point 4",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 82,
+          "label": "gray/black square series - point 5 (peak)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 62,
+          "label": "gray/black square series - point 6",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 1,
+          "y_value": 5,
+          "label": "red circle series - point 1",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 3,
+          "label": "red circle series - point 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 6,
+          "label": "red circle series - point 3",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 7,
+          "label": "red circle series - point 4",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 4,
+          "label": "red circle series - point 5",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 6,
+          "label": "red circle series - point 6",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure axes labels are not visible (cropped or missing), making it impossible to determine exact variables, units, or x/y scale. Two data series are shown: one with black/gray squares showing a rise-then-decline trend, and one with red circles remaining relatively flat near the baseline. Error bars are present on both series. The x-axis point indices are estimated as sequential integers. Y-values are rough estimates based on relative positioning in the plot area and should be treated with very low confidence without axis labels/scales.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels and scales are not visible (cropped or absent), preventing reliable extraction of quantitative data values or identification of the measured variables."
+    },
+    "tokens_used": 2792
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-043.png",
+    "path": "figures/P01/P01-043.png",
+    "width_px": 1057,
+    "height_px": 833,
+    "aspect_ratio": 1.27,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (categories/conditions)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows two line plots (red circles and gray/black squares) with error bars. The axis labels and legend are not visible in the cropped image, making it impossible to determine what variables are being plotted or extract meaningful quantitative data. The y-axis values and x-axis labels are cut off. The data points appear to be in the lower portion of the plot area, with the gray/black line starting higher on the left and decreasing, while the red line remains relatively flat. Without axis labels, units, or legend information, reliable data extraction is not possible.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, units, tick mark values, and legend are not visible in this cropped image. Cannot determine what variables are plotted or extract quantitative values."
+    },
+    "tokens_used": 2087
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-046.png",
+    "path": "figures/P01/P01-046.png",
+    "width_px": 517,
+    "height_px": 436,
+    "aspect_ratio": 1.19,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": null,
+          "label": "Bar 1 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": null,
+          "label": "Bar 2 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": null,
+          "label": "Bar 3 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": null,
+          "label": "Bar 4 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": null,
+          "label": "Bar 5 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": null,
+          "label": "Bar 6 - unable to determine label or precise y-value due to missing axis labels",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows 6 bars with error bars in a decreasing trend pattern, but all axis labels, tick marks, and category labels are missing or cropped from the image. Without axis labels or scale values, precise quantitative extraction is not possible. The bars appear to show a gradual decrease from left to right, with the first three bars at similar heights and the last three progressively lower. This pattern could be consistent with cell viability at increasing concentrations (dose-response), but this cannot be confirmed without labels.",
+      "extractable": false,
+      "reason_if_not_extractable": "All axis labels, tick values, and category labels are missing or cropped from the figure, making it impossible to determine what variable is being measured, the units, or precise quantitative values."
+    },
+    "tokens_used": 1657
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-047.png",
+    "path": "figures/P01/P01-047.png",
+    "width_px": 518,
+    "height_px": 437,
+    "aspect_ratio": 1.19,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (categories not visible)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (axis labels not visible)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": null,
+          "label": "Bar 1 (leftmost) - approximately 88-90% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": null,
+          "label": "Bar 2 - approximately 83-85% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": null,
+          "label": "Bar 3 - approximately 78-80% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": null,
+          "label": "Bar 4 - approximately 60-62% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": null,
+          "label": "Bar 5 - approximately 63-65% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": null,
+          "label": "Bar 6 (rightmost) - approximately 55-57% of y-axis scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows 6 bars in a descending trend with error bars. All axis labels, tick marks, and category labels are cropped or not visible in the image, making it impossible to determine the actual variable being plotted, the units, or the identity of each bar. The pattern of decreasing bars with error bars is consistent with a cell viability assay (dose-response) or similar bioactivity measurement, but this cannot be confirmed without axis labels. Relative bar heights estimated from visual inspection only.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick values, and category labels are not visible in the image. Cannot determine what variable is plotted, the units, or the identity of each data point. Quantitative extraction is not possible without these critical annotations."
+    },
+    "tokens_used": 1664
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-048.png",
+    "path": "figures/P01/P01-048.png",
+    "width_px": 518,
+    "height_px": 438,
+    "aspect_ratio": 1.18,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (categories not visible)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (axis labels not visible)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 1 (leftmost, tallest)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 3",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 4",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 5",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Bar 6 (rightmost)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows a bar chart with 6 bars in decreasing order with error bars, but the axis labels, axis tick values, and x-axis category labels are not visible/readable in the provided image. Without axis labels or numerical scale, quantitative data extraction is not possible. The bars appear to show a declining trend from left to right.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick values, and category labels are not visible in the image, making it impossible to extract quantitative values or determine what variable is being measured."
+    },
+    "tokens_used": 1533
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-049.png",
+    "path": "figures/P01/P01-049.png",
+    "width_px": 518,
+    "height_px": 437,
+    "aspect_ratio": 1.19,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (categories not labeled)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (axis labels not visible)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": null,
+          "label": "Bar 1 (leftmost) - estimated ~85-90% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": null,
+          "label": "Bar 2 - estimated ~78-80% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": null,
+          "label": "Bar 3 - estimated ~78-80% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": null,
+          "label": "Bar 4 - estimated ~60-62% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": null,
+          "label": "Bar 5 - estimated ~52-55% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": null,
+          "label": "Bar 6 (rightmost) - estimated ~55-58% of scale",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows 6 bars in a bar chart with error bars, but all axis labels, tick marks, and category labels are not visible in the image. The bars show a general decreasing trend from left to right. Without axis labels or category names, it is impossible to determine absolute values or identify what variable is being measured. The pattern (decreasing from ~85-90% to ~55%) could be consistent with cell viability at increasing concentrations, but this cannot be confirmed without labels.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick mark values, and category labels are not visible in the figure, making it impossible to extract quantitative data or identify the variable being measured."
+    },
+    "tokens_used": 1627
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-050.png",
+    "path": "figures/P01/P01-050.png",
+    "width_px": 781,
+    "height_px": 573,
+    "aspect_ratio": 1.36,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a scanning electron microscopy (SEM) image showing what appears to be bacterial cells or similar microorganisms. No quantitative data can be extracted from this type of image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM (scanning electron microscopy) image showing morphological features of cells/bacteria, not a chart with quantitative data"
+    },
+    "tokens_used": 1440
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-051.png",
+    "path": "figures/P01/P01-051.png",
+    "width_px": 781,
+    "height_px": 573,
+    "aspect_ratio": 1.36,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a scanning electron microscopy (SEM) image showing what appears to be rod-shaped bacterial cells. No quantitative data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM microscopy image of bacterial cells, not a chart with quantitative data"
+    },
+    "tokens_used": 1427
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-052.png",
+    "path": "figures/P01/P01-052.png",
+    "width_px": 778,
+    "height_px": 568,
+    "aspect_ratio": 1.37,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a scanning electron microscopy (SEM) image showing what appears to be two spherical cells or nanoparticles in contact, possibly depicting bacterial cells (diplococcus morphology) or nanoparticle aggregation. No quantitative data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM image showing spherical structures, not a chart with quantitative data"
+    },
+    "tokens_used": 1454
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-053.png",
+    "path": "figures/P01/P01-053.png",
+    "width_px": 779,
+    "height_px": 571,
+    "aspect_ratio": 1.36,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a scanning electron microscopy (SEM) image showing spherical structures, likely nanoparticles or bacterial cells (possibly cocci such as S. aureus) interacting with nanoparticles. The irregular/rough structures may represent cellular debris or nanoparticle aggregates. No quantitative data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM microscopy image showing morphological features, not a chart with quantitative data"
+    },
+    "tokens_used": 1469
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-054.png",
+    "path": "figures/P01/P01-054.png",
+    "width_px": 852,
+    "height_px": 652,
+    "aspect_ratio": 1.31,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (labels not visible)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (axis labels not visible)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": 95,
+          "label": "Group 1, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 1,
+          "y_value": 95,
+          "label": "Group 1, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 90,
+          "label": "Group 2, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 88,
+          "label": "Group 2, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 87,
+          "label": "Group 3, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 85,
+          "label": "Group 3, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 85,
+          "label": "Group 4, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 78,
+          "label": "Group 4, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 82,
+          "label": "Group 5, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 77,
+          "label": "Group 5, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 80,
+          "label": "Group 6, orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 74,
+          "label": "Group 6, green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure lacks visible axis labels, axis tick values, legend, and x-axis group labels. The chart appears to show a paired bar chart (orange and green) with error bars, with values that could represent cell viability (%) given the approximate range of 70-100. However, without axis labels or a legend, the specific variable and group identities cannot be determined. All values are rough estimates based on relative bar heights assuming the y-axis spans approximately 0-100.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick marks, legend, and group labels are not visible in the figure, making it impossible to reliably identify the variables, units, or conditions represented."
+    },
+    "tokens_used": 2364
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-055.png",
+    "path": "figures/P01/P01-055.png",
+    "width_px": 852,
+    "height_px": 652,
+    "aspect_ratio": 1.31,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown - labels not visible",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown - axis labels not visible",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 72,
+          "label": "Group 1 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 72,
+          "label": "Group 1 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 68,
+          "label": "Group 2 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 48,
+          "label": "Group 2 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 75,
+          "label": "Group 3 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 45,
+          "label": "Group 3 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 70,
+          "label": "Group 4 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 42,
+          "label": "Group 4 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 74,
+          "label": "Group 5 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 40,
+          "label": "Group 5 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 65,
+          "label": "Group 6 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 43,
+          "label": "Group 6 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure axes labels, legend, and x-axis category labels are not visible in the provided image. The chart shows 6 groups each with an orange and green bar with error bars. The y-axis appears to range from 0 to approximately 100. Without axis labels and legends, the specific variable being measured (viability, ROS, etc.) cannot be determined. Values are rough estimates based on bar heights. The first group shows nearly equal orange and green bars (~72), while subsequent groups show orange bars consistently higher than green bars.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, legend, and x-axis category labels are not visible in the cropped image, making it impossible to determine what variable is being measured or identify the experimental conditions/groups."
+    },
+    "tokens_used": 2381
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-056.png",
+    "path": "figures/P01/P01-056.png",
+    "width_px": 738,
+    "height_px": 566,
+    "aspect_ratio": 1.3,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (groups/conditions)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (likely cell viability or similar metric)",
+        "unit": "unknown (possibly %)"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": 95,
+          "label": "Group 1, condition 1 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 95,
+          "label": "Group 1, condition 2 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 90,
+          "label": "Group 1, condition 3 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 93,
+          "label": "Group 2, condition 1 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 90,
+          "label": "Group 2, condition 2 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 93,
+          "label": "Group 2, condition 3 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 98,
+          "label": "Group 3, condition 1 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 93,
+          "label": "Group 3, condition 2 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 78,
+          "label": "Group 4, condition 1 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 80,
+          "label": "Group 4, condition 2 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 82,
+          "label": "Group 4, condition 3 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 75,
+          "label": "Group 5, condition 1 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 78,
+          "label": "Group 5, condition 2 (orange)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": 83,
+          "label": "Group 5, condition 3 (green)",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure lacks visible axis labels, legend, and tick mark labels, making it impossible to definitively identify the variables, conditions, or units. The y-axis appears to range roughly from 0 to 100, suggesting a percentage metric (possibly cell viability). There appear to be 5 groups with 2-3 bars each (orange and green colored bars with error bars). Values are estimated from bar heights but confidence is low due to missing labels.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 2311
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-057.png",
+    "path": "figures/P01/P01-057.png",
+    "width_px": 738,
+    "height_px": 566,
+    "aspect_ratio": 1.3,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "bar",
+      "x_axis": {
+        "label": "unknown (categories/groups)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": 1,
+          "y_value": 85,
+          "label": "Group 1 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 1,
+          "y_value": 87,
+          "label": "Group 1 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 52,
+          "label": "Group 2 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 2,
+          "y_value": 60,
+          "label": "Group 2 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 52,
+          "label": "Group 3 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 3,
+          "y_value": 62,
+          "label": "Group 3 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 55,
+          "label": "Group 4 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 4,
+          "y_value": 50,
+          "label": "Group 4 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 40,
+          "label": "Group 5 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 5,
+          "y_value": 44,
+          "label": "Group 5 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 42,
+          "label": "Group 6 - orange bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": 6,
+          "y_value": 46,
+          "label": "Group 6 - green bar",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure lacks visible axis labels, axis tick marks with values, legend, and category labels. The x-axis and y-axis labels are not readable or are absent from the image. The bars appear in pairs (orange and green) across 6 groups with error bars. Without axis labels and scale markings, the extracted y-values are rough estimates based on relative bar heights assuming the y-axis ranges from 0 to ~100. The variable being measured cannot be determined from the image alone. Confidence is low for all data points due to missing labels and scale.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick mark values, category labels, and legend are not visible in the figure. Cannot reliably determine what variable is being plotted or the identity of the groups, making precise quantitative extraction impossible."
+    },
+    "tokens_used": 2222
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-058.png",
+    "path": "figures/P01/P01-058.png",
+    "width_px": 1031,
+    "height_px": 730,
+    "aspect_ratio": 1.41,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "size_distribution",
+      "x_axis": {
+        "label": "Size/Diameter or related parameter",
+        "unit": "unknown (axis labels not visible)"
+      },
+      "y_axis": {
+        "label": "Intensity/Frequency",
+        "unit": "unknown (axis labels not visible)"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This figure shows multiple overlapping size distribution or spectral curves (6-7 different samples shown with different colored markers: black downward triangles, blue circles, light blue right-pointing triangles, dark red upward triangles, olive/green diamonds, green squares, and red/orange squares). The inset zooms into the peak region showing the differences between curves. A vertical dashed line is present near the peak. Without visible axis labels, tick mark values, or a legend, precise quantitative data extraction is not possible. The curves appear to show particle size distributions from DLS or similar technique, or possibly UV-Vis absorption spectra. The peak positions appear to vary slightly between samples as shown in the zoomed inset, with the black curve having the highest peak and the red/orange curve having the lowest peak.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick mark values, units, and legend are not visible in the figure, making it impossible to extract quantitative values for any target variables."
+    },
+    "tokens_used": 2017
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-065.png",
+    "path": "figures/P01/P01-065.png",
+    "width_px": 782,
+    "height_px": 580,
+    "aspect_ratio": 1.35,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "Wavelength",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "Absorbance",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": 420,
+          "y_value": null,
+          "label": "LSPR peak - highest intensity curve (likely AgNPs, smallest size or highest concentration)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 425,
+          "y_value": null,
+          "label": "LSPR peak - second highest intensity curve",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 428,
+          "y_value": null,
+          "label": "LSPR peak - third curve",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": 430,
+          "y_value": null,
+          "label": "LSPR peak - fourth curve",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": 432,
+          "y_value": null,
+          "label": "LSPR peak - fifth curve",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        },
+        {
+          "x_value": 435,
+          "y_value": null,
+          "label": "LSPR peak - lowest intensity curve (likely lowest concentration or largest particle size)",
+          "variable_extracted": "lspr_nm",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "UV-Vis absorption spectra showing multiple overlapping curves with LSPR peaks in the 420-435 nm range, characteristic of silver nanoparticles. The multiple curves likely represent different concentrations, time points, or synthesis conditions. The axis labels and legend are not visible in the cropped image, reducing confidence in exact wavelength and absorbance values. The peak positions and relative intensities suggest a systematic variation in one parameter. The blue curve (highest peak) shows the strongest absorbance, with progressive decrease through red, dark red, pink, and orange/yellow curves.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 1912
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-066.png",
+    "path": "figures/P01/P01-066.png",
+    "width_px": 687,
+    "height_px": 597,
+    "aspect_ratio": 1.15,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (likely concentration or time)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (dual y-axes possible)",
+        "unit": "unknown"
+      },
+      "data_points": [
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Blue dashed line with square markers - series 1",
+          "variable_extracted": "other",
+          "confidence": "low"
+        },
+        {
+          "x_value": null,
+          "y_value": null,
+          "label": "Orange/red dashed line with circle markers - series 2",
+          "variable_extracted": "other",
+          "confidence": "low"
+        }
+      ],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure lacks visible axis labels, axis tick labels, and legend text. The image appears cropped or the labels are not readable. Two data series are present: a blue dashed line with square markers that starts low, rises steeply in the middle, peaks, and then decreases; and an orange/red dashed line with circle markers that remains relatively flat throughout. There are black arrows on the left and right sides of the plot, possibly indicating dual y-axes. Without axis labels and numerical scales, precise quantitative extraction is not possible.",
+      "extractable": false,
+      "reason_if_not_extractable": "Axis labels, tick marks, legend, and numerical scales are not visible or readable in the image. Cannot determine what variables are plotted or extract quantitative values."
+    },
+    "tokens_used": 1622
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-079.png",
+    "path": "figures/P01/P01-079.png",
+    "width_px": 702,
+    "height_px": 593,
+    "aspect_ratio": 1.18,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "unknown (no axis labels visible)",
+        "unit": "unknown"
+      },
+      "y_axis": {
+        "label": "unknown (dual y-axes, no labels visible)",
+        "unit": "unknown"
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "The figure shows two line plots (one orange with circles, one blue with squares) with dual y-axes indicated by arrows pointing left and right. However, no axis labels, units, or tick mark values are visible in the image, making it impossible to extract quantitative data or determine what variables are being plotted. The orange line generally decreases from top-left to bottom-right, while the blue line generally increases from left to right with some oscillation.",
+      "extractable": false,
+      "reason_if_not_extractable": "No axis labels, units, or numerical tick values are visible in the figure, preventing identification of variables and extraction of quantitative data points."
+    },
+    "tokens_used": 1498
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-080.png",
+    "path": "figures/P01/P01-080.png",
+    "width_px": 784,
+    "height_px": 568,
+    "aspect_ratio": 1.38,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "line",
+      "x_axis": {
+        "label": "Wavelength",
+        "unit": "nm"
+      },
+      "y_axis": {
+        "label": "Absorbance",
+        "unit": "a.u."
+      },
+      "data_points": [
+        {
+          "x_value": 420,
+          "y_value": null,
+          "label": "Highest intensity curve (blue circles) - LSPR peak near 420 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 420,
+          "y_value": null,
+          "label": "Second highest curve (red triangles) - LSPR peak near 420 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 420,
+          "y_value": null,
+          "label": "Third curve (green diamonds) - LSPR peak near 420 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        },
+        {
+          "x_value": 420,
+          "y_value": null,
+          "label": "Multiple overlapping curves showing decreasing absorbance intensity - LSPR peaks consistently near 420 nm",
+          "variable_extracted": "lspr_nm",
+          "confidence": "medium"
+        }
+      ],
+      "np_compositions_mentioned": [
+        "AgNPs"
+      ],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "UV-Vis absorption spectra showing multiple curves (likely different concentrations or time points) with a characteristic LSPR peak around 420 nm, consistent with silver nanoparticles. The axis labels and legend are not visible in the cropped image, making precise wavelength and absorbance value extraction difficult. The peak position appears to be approximately 420 nm across all curves, with varying intensities. The curves show a systematic decrease in peak absorbance from the top (blue circles, highest) to the bottom (lowest intensity curves), suggesting a concentration series or kinetic study.",
+      "extractable": true,
+      "reason_if_not_extractable": ""
+    },
+    "tokens_used": 1811
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-092.png",
+    "path": "figures/P01/P01-092.png",
+    "width_px": 908,
+    "height_px": 660,
+    "aspect_ratio": 1.38,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [],
+      "notes": "This is a scanning electron microscopy (SEM) image showing what appears to be cells or bacterial cells with surface interactions, possibly showing nanoparticle-treated cells with morphological changes. No quantitative data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM (scanning electron microscopy) image showing cell morphology, not a chart with quantitative data"
+    },
+    "tokens_used": 1653
+  },
+  {
+    "paper_id": "P01",
+    "filename": "P01-093.png",
+    "path": "figures/P01/P01-093.png",
+    "width_px": 908,
+    "height_px": 660,
+    "aspect_ratio": 1.38,
+    "is_target_paper": true,
+    "extraction_status": "done",
+    "extracted_data": {
+      "chart_type": "other",
+      "x_axis": {
+        "label": null,
+        "unit": null
+      },
+      "y_axis": {
+        "label": null,
+        "unit": null
+      },
+      "data_points": [],
+      "np_compositions_mentioned": [],
+      "cell_lines_mentioned": [],
+      "bacteria_mentioned": [
+        "S. aureus"
+      ],
+      "notes": "This is a scanning electron microscopy (SEM) image showing spherical cocci bacteria (likely Staphylococcus aureus based on the grape-like cluster arrangement). No quantitative data can be extracted from this image.",
+      "extractable": false,
+      "reason_if_not_extractable": "Figure is an SEM microscopy image of bacterial cells (cocci in clusters), not a chart with quantitative data"
+    },
+    "tokens_used": 1656
+  }
+]
